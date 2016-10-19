@@ -1,7 +1,11 @@
 # SKFCamera
-一个自定义相机，拍照完成可自由裁剪
-######调用方法很简单，下载demo，将SKFCamera添加到工程，引入
-    #import "SKFCamera.h"
+###一个自定义相机，拍照完成可自由裁剪
+# Requirements
+* Xcode 6 or higher
+* iOS 7.0 or higher
+* ARC
+###调用方法，
+#### 下载demo，将SKFCamera添加到工程，引入 #import "SKFCamera.h"
 然后五行代码就可以引用这个相机了
 
       SKFCamera *homec=[[SKFCamera alloc]init];
