@@ -15,5 +15,5 @@
     } ;
         [self presentViewController:homec animated:NO completion:^{}];}
         
-![skfcamera相机录制gifnew.gif](http://upload-images.jianshu.io/upload_images/964698-c4869c9a7c92ae25.gif?imageMogr2/auto-orient/strip)
+![](http://i1.piimg.com/4851/0071da17a0c177d6.gif)
 ######使用过程中，有任何问题，欢迎大家题issues
