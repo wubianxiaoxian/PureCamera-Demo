@@ -16,4 +16,7 @@
         [self presentViewController:homec animated:NO completion:^{}];}
         
 ![](http://i1.piimg.com/4851/0071da17a0c177d6.gif)
-######使用过程中，有任何问题，欢迎大家题issues
+######使用过程中，有任何问题，欢迎大家题issues，或者去我的blog留言。
+######微博 敲代码的树懒
+#####简书 [我的简书]（http://www.jianshu.com/users/61b9640c876a/latest_articles）
+#####博客地址[无边小仙](http://www.cnblogs.com/sunkaifeng/)
