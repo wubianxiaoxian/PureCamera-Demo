@@ -16,8 +16,6 @@
 		1DD1BF261DB5D211005970EB /* SKFCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1BF251DB5D211005970EB /* SKFCameraTests.m */; };
 		1DD1BF311DB5D211005970EB /* SKFCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1BF301DB5D211005970EB /* SKFCameraUITests.m */; };
 		1DD1BF511DB5D591005970EB /* ALCameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1BF401DB5D591005970EB /* ALCameraViewAssets.xcassets */; };
-		1DD1BF521DB5D591005970EB /* camera-flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1BF411DB5D591005970EB /* camera-flash.png */; };
-		1DD1BF531DB5D591005970EB /* camera-flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1BF421DB5D591005970EB /* camera-flash@2x.png */; };
 		1DD1BF551DB5D591005970EB /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1BF461DB5D591005970EB /* LLSimpleCamera+Helper.m */; };
 		1DD1BF561DB5D591005970EB /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1BF481DB5D591005970EB /* LLSimpleCamera.m */; };
 		1DD1BF571DB5D591005970EB /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1BF4A1DB5D591005970EB /* UIImage+Crop.m */; };
@@ -72,8 +70,6 @@
 		1DD1BF301DB5D211005970EB /* SKFCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKFCameraUITests.m; sourceTree = "<group>"; };
 		1DD1BF321DB5D211005970EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DD1BF401DB5D591005970EB /* ALCameraViewAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ALCameraViewAssets.xcassets; path = LLSimpleCamera/ALCameraViewAssets.xcassets; sourceTree = "<group>"; };
-		1DD1BF411DB5D591005970EB /* camera-flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-flash.png"; path = "LLSimpleCamera/camera-flash.png"; sourceTree = "<group>"; };
-		1DD1BF421DB5D591005970EB /* camera-flash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-flash@2x.png"; path = "LLSimpleCamera/camera-flash@2x.png"; sourceTree = "<group>"; };
 		1DD1BF451DB5D591005970EB /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LLSimpleCamera+Helper.h"; path = "LLSimpleCamera/LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
 		1DD1BF461DB5D591005970EB /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "LLSimpleCamera+Helper.m"; path = "LLSimpleCamera/LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
 		1DD1BF471DB5D591005970EB /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLSimpleCamera.h; path = LLSimpleCamera/LLSimpleCamera.h; sourceTree = "<group>"; };
@@ -203,8 +199,6 @@
 				1DD1BFF81DB625E9005970EB /* Corecamera */,
 				1DD1BFD41DB625E1005970EB /* 图片自由裁剪 */,
 				1DD1BF401DB5D591005970EB /* ALCameraViewAssets.xcassets */,
-				1DD1BF411DB5D591005970EB /* camera-flash.png */,
-				1DD1BF421DB5D591005970EB /* camera-flash@2x.png */,
 				1DD1BFD11DB61EAF005970EB /* SKFCamera.h */,
 				1DD1BFD21DB61EAF005970EB /* SKFCamera.m */,
 			);
@@ -218,7 +212,6 @@
 				1DD1BFDE1DB625E1005970EB /* TOCropViewController.h */,
 				1DD1BFDF1DB625E1005970EB /* TOCropViewController.m */,
 				1DD1BFE01DB625E1005970EB /* TOCropViewControllerLocalizable.strings */,
-				1DD1BFE11DB625E1005970EB /* TZImagePickerController */,
 				1DD1BFE21DB625E1005970EB /* UIView+layoutnew.h */,
 				1DD1BFE31DB625E1005970EB /* UIView+layoutnew.m */,
 				1DD1BFE41DB625E1005970EB /* Views */,
@@ -239,13 +232,6 @@
 				1DD1BFDD1DB625E1005970EB /* UIImage+CropRotate.m */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		1DD1BFE11DB625E1005970EB /* TZImagePickerController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TZImagePickerController;
 			sourceTree = "<group>";
 		};
 		1DD1BFE41DB625E1005970EB /* Views */ = {
@@ -387,12 +373,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DD1BF531DB5D591005970EB /* camera-flash@2x.png in Resources */,
 				1DD1BF1B1DB5D211005970EB /* LaunchScreen.storyboard in Resources */,
 				1DD1BF181DB5D211005970EB /* Assets.xcassets in Resources */,
 				1DD1BF161DB5D211005970EB /* Main.storyboard in Resources */,
 				1DD1BF511DB5D591005970EB /* ALCameraViewAssets.xcassets in Resources */,
-				1DD1BF521DB5D591005970EB /* camera-flash.png in Resources */,
 				1DD1BFF21DB625E1005970EB /* TOCropViewControllerLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -670,6 +654,7 @@
 				1DD1BF371DB5D211005970EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DD1BF381DB5D211005970EB /* Build configuration list for PBXNativeTarget "SKFCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -678,6 +663,7 @@
 				1DD1BF3A1DB5D211005970EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DD1BF3B1DB5D211005970EB /* Build configuration list for PBXNativeTarget "SKFCameraUITests" */ = {
 			isa = XCConfigurationList;
@@ -686,6 +672,7 @@
 				1DD1BF3D1DB5D211005970EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
