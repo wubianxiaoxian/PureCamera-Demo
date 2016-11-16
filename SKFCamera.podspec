@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "SKFCamera"
-  s.version      = "1.0.0"
+  s.version      = "1.1"
   s.summary      = "This one can customize the camera to take pictures of the page of the library, but also to support the cutting of the photo when the camera is completed."
   s.license  = "MIT"
   s.description  = 'This one can customize the camera to take pictures of the page of the library, but also to support the cutting of the photo when the camera is completed.thanyou' 
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.source_files = "SKFCamera", "SkfCamera/**/*.{h,m}"
   s.requires_arc = true
   s.framework  = "UIKit"
-  s.source    = { :git => "https://github.com/wubianxiaoxian/SKFCamera.git", :tag =>"1.0.0" }  
+  s.source    = { :git => "https://github.com/wubianxiaoxian/SKFCamera.git", :tag =>"1.1" }  
 end 
 

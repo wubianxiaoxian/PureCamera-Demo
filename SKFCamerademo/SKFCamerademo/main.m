@@ -1,8 +1,8 @@
 //
 //  main.m
-//  SKFCamera
+//  SKFCamerademo
 //
-//  Created by 孙凯峰 on 2016/10/18.
+//  Created by 孙凯峰 on 2016/11/16.
 //  Copyright © 2016年 孙凯峰. All rights reserved.
 //
 

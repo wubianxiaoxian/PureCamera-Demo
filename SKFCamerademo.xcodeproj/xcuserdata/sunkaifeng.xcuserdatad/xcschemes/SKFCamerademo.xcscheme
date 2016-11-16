@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1DD1BF071DB5D211005970EB"
-               BuildableName = "SKFCamera.app"
-               BlueprintName = "SKFCamera"
-               ReferencedContainer = "container:SKFCamera.xcodeproj">
+               BlueprintIdentifier = "1DD4F5011DDC676600F0D6B0"
+               BuildableName = "SKFCamerademo.app"
+               BlueprintName = "SKFCamerademo"
+               ReferencedContainer = "container:SKFCamerademo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1DD1BF201DB5D211005970EB"
-               BuildableName = "SKFCameraTests.xctest"
-               BlueprintName = "SKFCameraTests"
-               ReferencedContainer = "container:SKFCamera.xcodeproj">
+               BlueprintIdentifier = "1DD4F51A1DDC676600F0D6B0"
+               BuildableName = "SKFCamerademoTests.xctest"
+               BlueprintName = "SKFCamerademoTests"
+               ReferencedContainer = "container:SKFCamerademo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1DD1BF2B1DB5D211005970EB"
-               BuildableName = "SKFCameraUITests.xctest"
-               BlueprintName = "SKFCameraUITests"
-               ReferencedContainer = "container:SKFCamera.xcodeproj">
+               BlueprintIdentifier = "1DD4F5251DDC676600F0D6B0"
+               BuildableName = "SKFCamerademoUITests.xctest"
+               BlueprintName = "SKFCamerademoUITests"
+               ReferencedContainer = "container:SKFCamerademo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1DD1BF071DB5D211005970EB"
-            BuildableName = "SKFCamera.app"
-            BlueprintName = "SKFCamera"
-            ReferencedContainer = "container:SKFCamera.xcodeproj">
+            BlueprintIdentifier = "1DD4F5011DDC676600F0D6B0"
+            BuildableName = "SKFCamerademo.app"
+            BlueprintName = "SKFCamerademo"
+            ReferencedContainer = "container:SKFCamerademo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1DD1BF071DB5D211005970EB"
-            BuildableName = "SKFCamera.app"
-            BlueprintName = "SKFCamera"
-            ReferencedContainer = "container:SKFCamera.xcodeproj">
+            BlueprintIdentifier = "1DD4F5011DDC676600F0D6B0"
+            BuildableName = "SKFCamerademo.app"
+            BlueprintName = "SKFCamerademo"
+            ReferencedContainer = "container:SKFCamerademo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1DD1BF071DB5D211005970EB"
-            BuildableName = "SKFCamera.app"
-            BlueprintName = "SKFCamera"
-            ReferencedContainer = "container:SKFCamera.xcodeproj">
+            BlueprintIdentifier = "1DD4F5011DDC676600F0D6B0"
+            BuildableName = "SKFCamerademo.app"
+            BlueprintName = "SKFCamerademo"
+            ReferencedContainer = "container:SKFCamerademo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

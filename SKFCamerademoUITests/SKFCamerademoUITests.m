@@ -1,18 +1,18 @@
 //
-//  SKFCameraUITests.m
-//  SKFCameraUITests
+//  SKFCamerademoUITests.m
+//  SKFCamerademoUITests
 //
-//  Created by 孙凯峰 on 2016/10/18.
+//  Created by 孙凯峰 on 2016/11/16.
 //  Copyright © 2016年 孙凯峰. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface SKFCameraUITests : XCTestCase
+@interface SKFCamerademoUITests : XCTestCase
 
 @end
 
-@implementation SKFCameraUITests
+@implementation SKFCamerademoUITests
 
 - (void)setUp {
     [super setUp];

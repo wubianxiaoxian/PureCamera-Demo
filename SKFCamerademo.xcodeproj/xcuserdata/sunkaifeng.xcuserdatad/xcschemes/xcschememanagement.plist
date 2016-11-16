@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SKFCamera.xcscheme</key>
+		<key>SKFCamerademo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1DD1BF071DB5D211005970EB</key>
+		<key>1DD4F5011DDC676600F0D6B0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1DD1BF201DB5D211005970EB</key>
+		<key>1DD4F51A1DDC676600F0D6B0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1DD1BF2B1DB5D211005970EB</key>
+		<key>1DD4F5251DDC676600F0D6B0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
