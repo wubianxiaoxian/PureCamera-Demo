@@ -13,6 +13,9 @@
 
 ### 使用方法
 #### 将SKFCamera添加到工程，引入 #import "SKFCamera.h"
+#### 在info.plist 里面添加
+     Privacy - Microphone Usage Description  使用麦克风
+     Privacy - Camera Usage Description      使用相机
 然后五行代码就可以引用这个相机了
 
       SKFCamera *homec=[[SKFCamera alloc]init];

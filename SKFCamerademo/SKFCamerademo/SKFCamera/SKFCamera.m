@@ -44,14 +44,15 @@
     self.snapButton = [UIButton buttonWithType:UIButtonTypeCustom];
     self.snapButton.clipsToBounds = YES;
     self.snapButton.layer.cornerRadius =75 / 2.0f;
-    [self.snapButton setImage:[UIImage imageNamed:@"cameraButton"] forState:UIControlStateNormal];
+    [self.snapButton setImage:[UIImage imageNamed:@"SKFCamera.bundle/cameraButton"] forState:UIControlStateNormal];
     [self.snapButton addTarget:self action:@selector(snapButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.snapButton];
     //闪关灯按钮
     self.flashButton = [UIButton buttonWithType:UIButtonTypeSystem];
     
     self.flashButton.tintColor = [UIColor whiteColor];
-    [self.flashButton setImage:[UIImage imageNamed:@"camera-flash.png"] forState:UIControlStateNormal];
+//     UIImage *image = [UIImage imageNamed:@"SKFCamera.bundle/camera-flash.png"];
+    [self.flashButton setImage:[UIImage imageNamed:@"SKFCamera.bundle/camera-flash"] forState:UIControlStateNormal];
     self.flashButton.imageEdgeInsets = UIEdgeInsetsMake(10.0f, 10.0f, 10.0f, 10.0f);
     [self.flashButton addTarget:self action:@selector(flashButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.flashButton];
@@ -60,13 +61,13 @@
         self.switchButton = [UIButton buttonWithType:UIButtonTypeCustom];
         
         //        self.switchButton.tintColor = [UIColor whiteColor];
-        [self.switchButton setImage:[UIImage imageNamed:@"swapButton"] forState:UIControlStateNormal];
+        [self.switchButton setImage:[UIImage imageNamed:@"SKFCamera.bundle/swapButton"] forState:UIControlStateNormal];
         [self.switchButton addTarget:self action:@selector(switchButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:self.switchButton];
         //返回按钮
         self.backButton = [UIButton buttonWithType:UIButtonTypeCustom];
         
-        [self.backButton setImage:[UIImage imageNamed:@"closeButton"] forState:UIControlStateNormal];
+        [self.backButton setImage:[UIImage imageNamed:@"SKFCamera.bundle/closeButton"] forState:UIControlStateNormal];
         [self.backButton addTarget:self action:@selector(backButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:self.backButton];
     }
@@ -126,9 +127,7 @@
         NSLog(@"Camera error: %@", error);
         
         if([error.domain isEqualToString:LLSimpleCameraErrorDomain]) {
-            if(error.code == LLSimpleCameraErrorCodeCameraPermission ||
-               error.code == LLSimpleCameraErrorCodeMicrophonePermission) {
-                
+            if(error.code == LLSimpleCameraErrorCodeCameraPermission) {
                 if(weakSelf.errorLabel) {
                     [weakSelf.errorLabel removeFromSuperview];
                 }
