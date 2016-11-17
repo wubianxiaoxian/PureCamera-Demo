@@ -7,17 +7,17 @@
 #
 Pod::Spec.new do |s|
   s.name         = "SKFCamera"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "This one can customize the camera to take pictures of the page of the library, but also to support the cutting of the photo when the camera is completed."
   s.license  = "MIT"
   s.description  = 'This one can customize the camera to take pictures of the page of the library, but also to support the cutting of the photo when the camera is completed.thanyou' 
- s.homepage     = "https://github.com/wubianxiaoxian/SKFCamera"
+ s.homepage     = "https://github.com/wubianxiaoxian/SKFCamerademo"
   s.screenshots  = "http://i1.piimg.com/4851/0071da17a0c177d6.gif"
   s.author   = { 'Kaifeng Sun' => 'sunkaifengdiyi@163.com' }
   s.platform     = :ios, "7.0"
-  s.source_files = "SKFCamera", "SkfCamera/**/*.{h,m}"
+  s.source_files = "SKFCamera", ".{h,m}"
   s.requires_arc = true
   s.framework  = "UIKit"
-  s.source    = { :git => "https://github.com/wubianxiaoxian/SKFCamera.git", :tag =>"1.1" }  
+  s.source    = { :git => "https://github.com/wubianxiaoxian/SKFCamerademo.git", :tag =>"1.2" }  
 end 
 

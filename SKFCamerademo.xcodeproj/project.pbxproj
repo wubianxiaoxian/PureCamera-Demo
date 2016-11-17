@@ -15,24 +15,22 @@
 		1DD4F5AA1DDC6B2600F0D6B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD4F5791DDC6B2600F0D6B0 /* Main.storyboard */; };
 		1DD4F5AB1DDC6B2600F0D6B0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DD4F57B1DDC6B2600F0D6B0 /* Info.plist */; };
 		1DD4F5AC1DDC6B2600F0D6B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F57C1DDC6B2600F0D6B0 /* main.m */; };
-		1DD4F5AE1DDC6B2600F0D6B0 /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5811DDC6B2600F0D6B0 /* LLSimpleCamera+Helper.m */; };
-		1DD4F5AF1DDC6B2600F0D6B0 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5831DDC6B2600F0D6B0 /* LLSimpleCamera.m */; };
-		1DD4F5B01DDC6B2600F0D6B0 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5851DDC6B2600F0D6B0 /* UIImage+Crop.m */; };
-		1DD4F5B11DDC6B2600F0D6B0 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5871DDC6B2600F0D6B0 /* UIImage+FixOrientation.m */; };
-		1DD4F5B21DDC6B2600F0D6B0 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5891DDC6B2600F0D6B0 /* UIImage+Resize.m */; };
-		1DD4F5B31DDC6B2600F0D6B0 /* SKFCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F58B1DDC6B2600F0D6B0 /* SKFCamera.m */; };
-		1DD4F5B41DDC6B2600F0D6B0 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F58F1DDC6B2600F0D6B0 /* TOActivityCroppedImageProvider.m */; };
-		1DD4F5B51DDC6B2600F0D6B0 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5911DDC6B2600F0D6B0 /* TOCroppedImageAttributes.m */; };
-		1DD4F5B61DDC6B2600F0D6B0 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5931DDC6B2600F0D6B0 /* TOCropViewControllerTransitioning.m */; };
-		1DD4F5B71DDC6B2600F0D6B0 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5951DDC6B2600F0D6B0 /* UIImage+CropRotate.m */; };
-		1DD4F5B81DDC6B2600F0D6B0 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5971DDC6B2600F0D6B0 /* TOCropViewController.m */; };
-		1DD4F5B91DDC6B2600F0D6B0 /* TOCropViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DD4F5981DDC6B2600F0D6B0 /* TOCropViewControllerLocalizable.strings */; };
-		1DD4F5BB1DDC6B2600F0D6B0 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F59E1DDC6B2600F0D6B0 /* TOCropOverlayView.m */; };
-		1DD4F5BC1DDC6B2600F0D6B0 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5A01DDC6B2600F0D6B0 /* TOCropScrollView.m */; };
-		1DD4F5BD1DDC6B2600F0D6B0 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5A21DDC6B2600F0D6B0 /* TOCropToolbar.m */; };
-		1DD4F5BE1DDC6B2600F0D6B0 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5A41DDC6B2600F0D6B0 /* TOCropView.m */; };
 		1DD4F5BF1DDC6B2600F0D6B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5A61DDC6B2600F0D6B0 /* ViewController.m */; };
-		1DD4F5C11DDC6D3800F0D6B0 /* SKFCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DD4F5C01DDC6D3800F0D6B0 /* SKFCamera.bundle */; };
+		1DD4F6151DDD59E400F0D6B0 /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5F61DDD59E400F0D6B0 /* LLSimpleCamera+Helper.m */; };
+		1DD4F6161DDD59E400F0D6B0 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5F81DDD59E400F0D6B0 /* LLSimpleCamera.m */; };
+		1DD4F6171DDD59E400F0D6B0 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5FA1DDD59E400F0D6B0 /* UIImage+FixOrientation.m */; };
+		1DD4F6181DDD59E400F0D6B0 /* SKFCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DD4F5FB1DDD59E400F0D6B0 /* SKFCamera.bundle */; };
+		1DD4F6191DDD59E400F0D6B0 /* SKFCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F5FD1DDD59E400F0D6B0 /* SKFCamera.m */; };
+		1DD4F61A1DDD59E400F0D6B0 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F6011DDD59E400F0D6B0 /* TOActivityCroppedImageProvider.m */; };
+		1DD4F61B1DDD59E400F0D6B0 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F6031DDD59E400F0D6B0 /* TOCroppedImageAttributes.m */; };
+		1DD4F61C1DDD59E400F0D6B0 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F6051DDD59E400F0D6B0 /* TOCropViewControllerTransitioning.m */; };
+		1DD4F61D1DDD59E400F0D6B0 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F6071DDD59E400F0D6B0 /* UIImage+CropRotate.m */; };
+		1DD4F61E1DDD59E400F0D6B0 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F6091DDD59E400F0D6B0 /* TOCropViewController.m */; };
+		1DD4F61F1DDD59E400F0D6B0 /* TOCropViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DD4F60A1DDD59E400F0D6B0 /* TOCropViewControllerLocalizable.strings */; };
+		1DD4F6201DDD59E400F0D6B0 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F60E1DDD59E400F0D6B0 /* TOCropOverlayView.m */; };
+		1DD4F6211DDD59E400F0D6B0 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F6101DDD59E400F0D6B0 /* TOCropScrollView.m */; };
+		1DD4F6221DDD59E400F0D6B0 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F6121DDD59E400F0D6B0 /* TOCropToolbar.m */; };
+		1DD4F6231DDD59E400F0D6B0 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4F6141DDD59E400F0D6B0 /* TOCropView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,40 +65,36 @@
 		1DD4F57A1DDC6B2600F0D6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DD4F57B1DDC6B2600F0D6B0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DD4F57C1DDC6B2600F0D6B0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1DD4F5801DDC6B2600F0D6B0 /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
-		1DD4F5811DDC6B2600F0D6B0 /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
-		1DD4F5821DDC6B2600F0D6B0 /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
-		1DD4F5831DDC6B2600F0D6B0 /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
-		1DD4F5841DDC6B2600F0D6B0 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
-		1DD4F5851DDC6B2600F0D6B0 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
-		1DD4F5861DDC6B2600F0D6B0 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
-		1DD4F5871DDC6B2600F0D6B0 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
-		1DD4F5881DDC6B2600F0D6B0 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
-		1DD4F5891DDC6B2600F0D6B0 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
-		1DD4F58A1DDC6B2600F0D6B0 /* SKFCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFCamera.h; sourceTree = "<group>"; };
-		1DD4F58B1DDC6B2600F0D6B0 /* SKFCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFCamera.m; sourceTree = "<group>"; };
-		1DD4F58E1DDC6B2600F0D6B0 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
-		1DD4F58F1DDC6B2600F0D6B0 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
-		1DD4F5901DDC6B2600F0D6B0 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
-		1DD4F5911DDC6B2600F0D6B0 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
-		1DD4F5921DDC6B2600F0D6B0 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
-		1DD4F5931DDC6B2600F0D6B0 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
-		1DD4F5941DDC6B2600F0D6B0 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
-		1DD4F5951DDC6B2600F0D6B0 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
-		1DD4F5961DDC6B2600F0D6B0 /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
-		1DD4F5971DDC6B2600F0D6B0 /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewController.m; sourceTree = "<group>"; };
-		1DD4F5981DDC6B2600F0D6B0 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
-		1DD4F59D1DDC6B2600F0D6B0 /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
-		1DD4F59E1DDC6B2600F0D6B0 /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
-		1DD4F59F1DDC6B2600F0D6B0 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
-		1DD4F5A01DDC6B2600F0D6B0 /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
-		1DD4F5A11DDC6B2600F0D6B0 /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
-		1DD4F5A21DDC6B2600F0D6B0 /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
-		1DD4F5A31DDC6B2600F0D6B0 /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
-		1DD4F5A41DDC6B2600F0D6B0 /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
 		1DD4F5A51DDC6B2600F0D6B0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1DD4F5A61DDC6B2600F0D6B0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1DD4F5C01DDC6D3800F0D6B0 /* SKFCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SKFCamera.bundle; path = SKFCamerademo/SKFCamerademo/SKFCamera.bundle; sourceTree = SOURCE_ROOT; };
+		1DD4F5F51DDD59E400F0D6B0 /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
+		1DD4F5F61DDD59E400F0D6B0 /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
+		1DD4F5F71DDD59E400F0D6B0 /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
+		1DD4F5F81DDD59E400F0D6B0 /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
+		1DD4F5F91DDD59E400F0D6B0 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		1DD4F5FA1DDD59E400F0D6B0 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		1DD4F5FB1DDD59E400F0D6B0 /* SKFCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKFCamera.bundle; sourceTree = "<group>"; };
+		1DD4F5FC1DDD59E400F0D6B0 /* SKFCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFCamera.h; sourceTree = "<group>"; };
+		1DD4F5FD1DDD59E400F0D6B0 /* SKFCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFCamera.m; sourceTree = "<group>"; };
+		1DD4F6001DDD59E400F0D6B0 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		1DD4F6011DDD59E400F0D6B0 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		1DD4F6021DDD59E400F0D6B0 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		1DD4F6031DDD59E400F0D6B0 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		1DD4F6041DDD59E400F0D6B0 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		1DD4F6051DDD59E400F0D6B0 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		1DD4F6061DDD59E400F0D6B0 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		1DD4F6071DDD59E400F0D6B0 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		1DD4F6081DDD59E400F0D6B0 /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
+		1DD4F6091DDD59E400F0D6B0 /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewController.m; sourceTree = "<group>"; };
+		1DD4F60A1DDD59E400F0D6B0 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		1DD4F60D1DDD59E400F0D6B0 /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		1DD4F60E1DDD59E400F0D6B0 /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
+		1DD4F60F1DDD59E400F0D6B0 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
+		1DD4F6101DDD59E400F0D6B0 /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		1DD4F6111DDD59E400F0D6B0 /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
+		1DD4F6121DDD59E400F0D6B0 /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
+		1DD4F6131DDD59E400F0D6B0 /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
+		1DD4F6141DDD59E400F0D6B0 /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +125,7 @@
 		1DD4F4F91DDC676600F0D6B0 = {
 			isa = PBXGroup;
 			children = (
+				1DD4F5F31DDD59E400F0D6B0 /* SKFCamera */,
 				1DD4F5721DDC6B2600F0D6B0 /* SKFCamerademo */,
 				1DD4F51E1DDC676600F0D6B0 /* SKFCamerademoTests */,
 				1DD4F5291DDC676600F0D6B0 /* SKFCamerademoUITests */,
@@ -184,80 +179,83 @@
 				1DD4F5791DDC6B2600F0D6B0 /* Main.storyboard */,
 				1DD4F57B1DDC6B2600F0D6B0 /* Info.plist */,
 				1DD4F57C1DDC6B2600F0D6B0 /* main.m */,
-				1DD4F57D1DDC6B2600F0D6B0 /* SKFCamera */,
 				1DD4F5A51DDC6B2600F0D6B0 /* ViewController.h */,
 				1DD4F5A61DDC6B2600F0D6B0 /* ViewController.m */,
 			);
 			path = SKFCamerademo;
 			sourceTree = "<group>";
 		};
-		1DD4F57D1DDC6B2600F0D6B0 /* SKFCamera */ = {
+		1DD4F5F31DDD59E400F0D6B0 /* SKFCamera */ = {
 			isa = PBXGroup;
 			children = (
-				1DD4F5C01DDC6D3800F0D6B0 /* SKFCamera.bundle */,
-				1DD4F57E1DDC6B2600F0D6B0 /* LLSimpleCamera */,
-				1DD4F58A1DDC6B2600F0D6B0 /* SKFCamera.h */,
-				1DD4F58B1DDC6B2600F0D6B0 /* SKFCamera.m */,
-				1DD4F58C1DDC6B2600F0D6B0 /* 图片自由裁剪 */,
+				1DD4F5F41DDD59E400F0D6B0 /* LLSimpleCamera */,
+				1DD4F5FB1DDD59E400F0D6B0 /* SKFCamera.bundle */,
+				1DD4F5FC1DDD59E400F0D6B0 /* SKFCamera.h */,
+				1DD4F5FD1DDD59E400F0D6B0 /* SKFCamera.m */,
+				1DD4F5FE1DDD59E400F0D6B0 /* 图片自由裁剪 */,
 			);
 			path = SKFCamera;
 			sourceTree = "<group>";
 		};
-		1DD4F57E1DDC6B2600F0D6B0 /* LLSimpleCamera */ = {
+		1DD4F5F41DDD59E400F0D6B0 /* LLSimpleCamera */ = {
 			isa = PBXGroup;
 			children = (
-				1DD4F5801DDC6B2600F0D6B0 /* LLSimpleCamera+Helper.h */,
-				1DD4F5811DDC6B2600F0D6B0 /* LLSimpleCamera+Helper.m */,
-				1DD4F5821DDC6B2600F0D6B0 /* LLSimpleCamera.h */,
-				1DD4F5831DDC6B2600F0D6B0 /* LLSimpleCamera.m */,
-				1DD4F5841DDC6B2600F0D6B0 /* UIImage+Crop.h */,
-				1DD4F5851DDC6B2600F0D6B0 /* UIImage+Crop.m */,
-				1DD4F5861DDC6B2600F0D6B0 /* UIImage+FixOrientation.h */,
-				1DD4F5871DDC6B2600F0D6B0 /* UIImage+FixOrientation.m */,
-				1DD4F5881DDC6B2600F0D6B0 /* UIImage+Resize.h */,
-				1DD4F5891DDC6B2600F0D6B0 /* UIImage+Resize.m */,
+				1DD4F5F51DDD59E400F0D6B0 /* LLSimpleCamera+Helper.h */,
+				1DD4F5F61DDD59E400F0D6B0 /* LLSimpleCamera+Helper.m */,
+				1DD4F5F71DDD59E400F0D6B0 /* LLSimpleCamera.h */,
+				1DD4F5F81DDD59E400F0D6B0 /* LLSimpleCamera.m */,
+				1DD4F5F91DDD59E400F0D6B0 /* UIImage+FixOrientation.h */,
+				1DD4F5FA1DDD59E400F0D6B0 /* UIImage+FixOrientation.m */,
 			);
 			path = LLSimpleCamera;
 			sourceTree = "<group>";
 		};
-		1DD4F58C1DDC6B2600F0D6B0 /* 图片自由裁剪 */ = {
+		1DD4F5FE1DDD59E400F0D6B0 /* 图片自由裁剪 */ = {
 			isa = PBXGroup;
 			children = (
-				1DD4F58D1DDC6B2600F0D6B0 /* Models */,
-				1DD4F5961DDC6B2600F0D6B0 /* TOCropViewController.h */,
-				1DD4F5971DDC6B2600F0D6B0 /* TOCropViewController.m */,
-				1DD4F5981DDC6B2600F0D6B0 /* TOCropViewControllerLocalizable.strings */,
-				1DD4F59C1DDC6B2600F0D6B0 /* Views */,
+				1DD4F5FF1DDD59E400F0D6B0 /* Models */,
+				1DD4F6081DDD59E400F0D6B0 /* TOCropViewController.h */,
+				1DD4F6091DDD59E400F0D6B0 /* TOCropViewController.m */,
+				1DD4F60A1DDD59E400F0D6B0 /* TOCropViewControllerLocalizable.strings */,
+				1DD4F60B1DDD59E400F0D6B0 /* TZImagePickerController */,
+				1DD4F60C1DDD59E400F0D6B0 /* Views */,
 			);
 			path = "图片自由裁剪";
 			sourceTree = "<group>";
 		};
-		1DD4F58D1DDC6B2600F0D6B0 /* Models */ = {
+		1DD4F5FF1DDD59E400F0D6B0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1DD4F58E1DDC6B2600F0D6B0 /* TOActivityCroppedImageProvider.h */,
-				1DD4F58F1DDC6B2600F0D6B0 /* TOActivityCroppedImageProvider.m */,
-				1DD4F5901DDC6B2600F0D6B0 /* TOCroppedImageAttributes.h */,
-				1DD4F5911DDC6B2600F0D6B0 /* TOCroppedImageAttributes.m */,
-				1DD4F5921DDC6B2600F0D6B0 /* TOCropViewControllerTransitioning.h */,
-				1DD4F5931DDC6B2600F0D6B0 /* TOCropViewControllerTransitioning.m */,
-				1DD4F5941DDC6B2600F0D6B0 /* UIImage+CropRotate.h */,
-				1DD4F5951DDC6B2600F0D6B0 /* UIImage+CropRotate.m */,
+				1DD4F6001DDD59E400F0D6B0 /* TOActivityCroppedImageProvider.h */,
+				1DD4F6011DDD59E400F0D6B0 /* TOActivityCroppedImageProvider.m */,
+				1DD4F6021DDD59E400F0D6B0 /* TOCroppedImageAttributes.h */,
+				1DD4F6031DDD59E400F0D6B0 /* TOCroppedImageAttributes.m */,
+				1DD4F6041DDD59E400F0D6B0 /* TOCropViewControllerTransitioning.h */,
+				1DD4F6051DDD59E400F0D6B0 /* TOCropViewControllerTransitioning.m */,
+				1DD4F6061DDD59E400F0D6B0 /* UIImage+CropRotate.h */,
+				1DD4F6071DDD59E400F0D6B0 /* UIImage+CropRotate.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		1DD4F59C1DDC6B2600F0D6B0 /* Views */ = {
+		1DD4F60B1DDD59E400F0D6B0 /* TZImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
-				1DD4F59D1DDC6B2600F0D6B0 /* TOCropOverlayView.h */,
-				1DD4F59E1DDC6B2600F0D6B0 /* TOCropOverlayView.m */,
-				1DD4F59F1DDC6B2600F0D6B0 /* TOCropScrollView.h */,
-				1DD4F5A01DDC6B2600F0D6B0 /* TOCropScrollView.m */,
-				1DD4F5A11DDC6B2600F0D6B0 /* TOCropToolbar.h */,
-				1DD4F5A21DDC6B2600F0D6B0 /* TOCropToolbar.m */,
-				1DD4F5A31DDC6B2600F0D6B0 /* TOCropView.h */,
-				1DD4F5A41DDC6B2600F0D6B0 /* TOCropView.m */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		1DD4F60C1DDD59E400F0D6B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DD4F60D1DDD59E400F0D6B0 /* TOCropOverlayView.h */,
+				1DD4F60E1DDD59E400F0D6B0 /* TOCropOverlayView.m */,
+				1DD4F60F1DDD59E400F0D6B0 /* TOCropScrollView.h */,
+				1DD4F6101DDD59E400F0D6B0 /* TOCropScrollView.m */,
+				1DD4F6111DDD59E400F0D6B0 /* TOCropToolbar.h */,
+				1DD4F6121DDD59E400F0D6B0 /* TOCropToolbar.m */,
+				1DD4F6131DDD59E400F0D6B0 /* TOCropView.h */,
+				1DD4F6141DDD59E400F0D6B0 /* TOCropView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -371,8 +369,8 @@
 			files = (
 				1DD4F5AB1DDC6B2600F0D6B0 /* Info.plist in Resources */,
 				1DD4F5AA1DDC6B2600F0D6B0 /* Main.storyboard in Resources */,
-				1DD4F5C11DDC6D3800F0D6B0 /* SKFCamera.bundle in Resources */,
-				1DD4F5B91DDC6B2600F0D6B0 /* TOCropViewControllerLocalizable.strings in Resources */,
+				1DD4F6181DDD59E400F0D6B0 /* SKFCamera.bundle in Resources */,
+				1DD4F61F1DDD59E400F0D6B0 /* TOCropViewControllerLocalizable.strings in Resources */,
 				1DD4F5A81DDC6B2600F0D6B0 /* Assets.xcassets in Resources */,
 				1DD4F5A91DDC6B2600F0D6B0 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -399,24 +397,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DD4F5AE1DDC6B2600F0D6B0 /* LLSimpleCamera+Helper.m in Sources */,
+				1DD4F6161DDD59E400F0D6B0 /* LLSimpleCamera.m in Sources */,
+				1DD4F6151DDD59E400F0D6B0 /* LLSimpleCamera+Helper.m in Sources */,
+				1DD4F6201DDD59E400F0D6B0 /* TOCropOverlayView.m in Sources */,
 				1DD4F5AC1DDC6B2600F0D6B0 /* main.m in Sources */,
-				1DD4F5B81DDC6B2600F0D6B0 /* TOCropViewController.m in Sources */,
-				1DD4F5BE1DDC6B2600F0D6B0 /* TOCropView.m in Sources */,
-				1DD4F5B01DDC6B2600F0D6B0 /* UIImage+Crop.m in Sources */,
-				1DD4F5B41DDC6B2600F0D6B0 /* TOActivityCroppedImageProvider.m in Sources */,
-				1DD4F5BD1DDC6B2600F0D6B0 /* TOCropToolbar.m in Sources */,
+				1DD4F6211DDD59E400F0D6B0 /* TOCropScrollView.m in Sources */,
+				1DD4F61C1DDD59E400F0D6B0 /* TOCropViewControllerTransitioning.m in Sources */,
+				1DD4F61B1DDD59E400F0D6B0 /* TOCroppedImageAttributes.m in Sources */,
 				1DD4F5BF1DDC6B2600F0D6B0 /* ViewController.m in Sources */,
-				1DD4F5B61DDC6B2600F0D6B0 /* TOCropViewControllerTransitioning.m in Sources */,
-				1DD4F5B31DDC6B2600F0D6B0 /* SKFCamera.m in Sources */,
-				1DD4F5BB1DDC6B2600F0D6B0 /* TOCropOverlayView.m in Sources */,
-				1DD4F5B71DDC6B2600F0D6B0 /* UIImage+CropRotate.m in Sources */,
-				1DD4F5B51DDC6B2600F0D6B0 /* TOCroppedImageAttributes.m in Sources */,
-				1DD4F5AF1DDC6B2600F0D6B0 /* LLSimpleCamera.m in Sources */,
-				1DD4F5B11DDC6B2600F0D6B0 /* UIImage+FixOrientation.m in Sources */,
+				1DD4F61A1DDD59E400F0D6B0 /* TOActivityCroppedImageProvider.m in Sources */,
+				1DD4F6231DDD59E400F0D6B0 /* TOCropView.m in Sources */,
+				1DD4F6171DDD59E400F0D6B0 /* UIImage+FixOrientation.m in Sources */,
 				1DD4F5A71DDC6B2600F0D6B0 /* AppDelegate.m in Sources */,
-				1DD4F5BC1DDC6B2600F0D6B0 /* TOCropScrollView.m in Sources */,
-				1DD4F5B21DDC6B2600F0D6B0 /* UIImage+Resize.m in Sources */,
+				1DD4F6191DDD59E400F0D6B0 /* SKFCamera.m in Sources */,
+				1DD4F61D1DDD59E400F0D6B0 /* UIImage+CropRotate.m in Sources */,
+				1DD4F61E1DDD59E400F0D6B0 /* TOCropViewController.m in Sources */,
+				1DD4F6221DDD59E400F0D6B0 /* TOCropToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
