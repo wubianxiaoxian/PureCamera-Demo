@@ -12,21 +12,29 @@
 
 
 ### 使用方法
-#### 将SKFCamera添加到工程，引入 #import "SKFCamera.h"
+*  Installation with CocoaPods：pod 'SKFCamera'，引入        
+     
+        #import <SKFCamera.h>  
+* 或者下载demo到本地将SKFCamera添加到工程，引入 
+     
+        #import "SKFCamera.h"
 #### 在info.plist 里面添加
-     Privacy - Microphone Usage Description  使用麦克风
-     Privacy - Camera Usage Description      使用相机
-然后五行代码就可以引用这个相机了
+         Privacy - Microphone Usage Description  使用麦克风
+         Privacy - Camera Usage Description      使用相机
 
-      SKFCamera *homec=[[SKFCamera alloc]init];
-      __weak typeof(self)myself=self;
-      homec.fininshcapture=^(UIImage *ss){
+
+* 按照下面的方法引用相机
+
+      
+        SKFCamera *homec=[[SKFCamera alloc]init];
+        __weak typeof(self)myself=self;
+        homec.fininshcapture=^(UIImage *ss){
         if (ss) {
             NSLog(@"照片存在");
           //在这里获取裁剪后的照片
             myself.ViewImageview.image=ss;
         }
-    } ;
+        } ;
         [self presentViewController:homec animated:NO completion:^{}];}
         
 ![](http://i1.piimg.com/4851/0071da17a0c177d6.gif)
