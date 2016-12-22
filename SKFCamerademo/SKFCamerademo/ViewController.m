@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //乱的代码 
+    //乱的代码
     [self performSelector:@selector(testcode) withObject:self afterDelay:3];
     // Do any additional setup after loading the view, typically from a nib.
 }
