@@ -19,35 +19,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    if (YES) {NSLog(@"乱的代码");}
     //乱的代码
     [self performSelector:@selector(testcode) withObject:self afterDelay:3];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
--(void)testcode{
-    
+- (void)testcode {
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-
 - (IBAction)pushCameraclick:(id)sender {
     if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
-        SKFCamera *homec=[[SKFCamera alloc]init];
-        __weak typeof(self)myself=self;
-        homec.fininshcapture=^(UIImage *ss){
+        SKFCamera *homec = [[SKFCamera alloc] init];
+        __weak typeof(self) myself = self;
+        homec.fininshcapture = ^(UIImage *ss) {
             if (ss) {
                 NSLog(@"照片存在");
-                myself.Kimageview.image=ss;
+                myself.Kimageview.image = ss;
             }
-        } ;
-        [myself presentViewController:homec animated:NO completion:^{}];}
-    else{
+        };
+        [myself presentViewController:homec
+                             animated:NO
+                           completion:^{
+                           }];
+    } else {
         NSLog(@"相机调用失败");
     }
-
 }
 @end
