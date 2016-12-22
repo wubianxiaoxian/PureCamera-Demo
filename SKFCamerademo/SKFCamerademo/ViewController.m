@@ -19,10 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    [self performSelector:@selector(testcode) withObject:self afterDelay:3];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
+-(void)testcode{
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
