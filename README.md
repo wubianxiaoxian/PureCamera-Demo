@@ -36,6 +36,25 @@
         }
         } ;
         [self presentViewController:homec animated:NO completion:^{}];}
+
+* 按照下面的方法引用图片裁剪页
+   
+        首先引入 #import "TOCropViewController.h"
+        遵守@interface ViewController ()<TOCropViewControllerDelegate>
+        传入一张图片，就可以present图片裁剪页了
+        TOCropViewController *cropController = [[TOCropViewController alloc] initWithImage:self.cropImageview.image];
+        cropController.delegate = self;
+        [self presentViewController:cropController animated:YES completion:nil];
+        - (void)cropViewController:(TOCropViewController *)cropViewController didCropToImage:(UIImage *)image withRect:(CGRect)cropRect angle:(NSInteger)angle
+        {
+        self.cropImageview.image=image;
+        self.navigationItem.rightBarButtonItem.enabled = YES;
+        //下面定义了一个动画的效果，就是图片裁剪页消失的时候，会以下面你定义的view的frame为消失后的边界。
+        CGRect viewFrame = [self.view convertRect:self.cropImageview.frame toView:self.navigationController.view];
+        [cropViewController dismissAnimatedFromParentViewController:self withCroppedImage:image toFrame:viewFrame completion:^{
+        }];
+         }
+
         
 ![](http://i1.piimg.com/4851/0071da17a0c177d6.gif)
 ######使用过程中，有任何问题，欢迎大家题issues，或者去我的blog留言。
