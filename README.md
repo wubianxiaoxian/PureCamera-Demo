@@ -1,4 +1,11 @@
 # SKFCamera
+[![CI Status](http://img.shields.io/travis/wubianxiaoxian/SKFPicPreview.svg?style=flat)](https://travis-ci.org/wubianxiaoxian/SKFCamera)
+[![Version](https://img.shields.io/cocoapods/v/SKFPicPreview.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
+[![License](https://img.shields.io/cocoapods/l/SKFPicPreview.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
+[![Platform](https://img.shields.io/cocoapods/p/SKFPicPreview.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
+
+
+
 ###一个自定义相机，拍照完成可自由裁剪
 ### Requirements
 
