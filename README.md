@@ -1,8 +1,8 @@
 # SKFCamera
-[![CI Status](http://img.shields.io/travis/wubianxiaoxian/SKFPicPreview.svg?style=flat)](https://travis-ci.org/wubianxiaoxian/SKFCamera)
-[![Version](https://img.shields.io/cocoapods/v/SKFPicPreview.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
-[![License](https://img.shields.io/cocoapods/l/SKFPicPreview.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
-[![Platform](https://img.shields.io/cocoapods/p/SKFPicPreview.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
+[![CI Status](http://img.shields.io/travis/wubianxiaoxian/SKFCamera.svg?style=flat)](https://travis-ci.org/wubianxiaoxian/SKFCamera)
+[![Version](https://img.shields.io/cocoapods/v/SKFCamera.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
+[![License](https://img.shields.io/cocoapods/l/SKFCamera.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
+[![Platform](https://img.shields.io/cocoapods/p/SKFCamera.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
 
 
 
