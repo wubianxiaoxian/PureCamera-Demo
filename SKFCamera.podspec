@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = 'SKFCamera'
-  s.version      = '1.3.0'
+  s.version      = '1.3.2'
   s.summary      = "This one can customize the camera to take pictures of the page of the library, but also to support the cutting of the photo when the camera is completed."
   s.license  = "MIT"
   s.description  = 'This one can customize the camera to take pictures of the page of the library, but also to support the cutting of the photo when the camera is completed.thanyou' 
