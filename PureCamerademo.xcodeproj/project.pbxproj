@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D53DEF31F48341B00534C17 /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DED81F48341B00534C17 /* LLSimpleCamera+Helper.m */; };
+		1D53DEF41F48341B00534C17 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEDA1F48341B00534C17 /* LLSimpleCamera.m */; };
+		1D53DEF51F48341B00534C17 /* PureCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEDC1F48341B00534C17 /* PureCamera.m */; };
+		1D53DEF61F48341B00534C17 /* PureCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D53DEDD1F48341B00534C17 /* PureCamera.bundle */; };
+		1D53DEF71F48341B00534C17 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEDF1F48341B00534C17 /* TOActivityCroppedImageProvider.m */; };
+		1D53DEF81F48341B00534C17 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEE11F48341B00534C17 /* TOCropOverlayView.m */; };
+		1D53DEF91F48341B00534C17 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEE31F48341B00534C17 /* TOCroppedImageAttributes.m */; };
+		1D53DEFA1F48341B00534C17 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEE51F48341B00534C17 /* TOCropScrollView.m */; };
+		1D53DEFB1F48341B00534C17 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEE71F48341B00534C17 /* TOCropToolbar.m */; };
+		1D53DEFC1F48341B00534C17 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEE91F48341B00534C17 /* TOCropView.m */; };
+		1D53DEFD1F48341B00534C17 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEEB1F48341B00534C17 /* TOCropViewController.m */; };
+		1D53DEFE1F48341B00534C17 /* TOCropViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D53DEEC1F48341B00534C17 /* TOCropViewControllerLocalizable.strings */; };
+		1D53DEFF1F48341B00534C17 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEEE1F48341B00534C17 /* TOCropViewControllerTransitioning.m */; };
+		1D53DF001F48341B00534C17 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEF01F48341B00534C17 /* UIImage+CropRotate.m */; };
+		1D53DF011F48341B00534C17 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEF21F48341B00534C17 /* UIImage+FixOrientation.m */; };
+		1D53DF0E1F48343000534C17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DF051F48343000534C17 /* AppDelegate.m */; };
+		1D53DF0F1F48343000534C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D53DF061F48343000534C17 /* Assets.xcassets */; };
+		1D53DF101F48343000534C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D53DF071F48343000534C17 /* LaunchScreen.storyboard */; };
+		1D53DF111F48343000534C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D53DF091F48343000534C17 /* Main.storyboard */; };
+		1D53DF121F48343000534C17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DF0B1F48343000534C17 /* main.m */; };
+		1D53DF131F48343000534C17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DF0D1F48343000534C17 /* ViewController.m */; };
+		6C1D93121F48591100AE1102 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C1D93111F48591100AE1102 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D53DED71F48341B00534C17 /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
+		1D53DED81F48341B00534C17 /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
+		1D53DED91F48341B00534C17 /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
+		1D53DEDA1F48341B00534C17 /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
+		1D53DEDB1F48341B00534C17 /* PureCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureCamera.h; sourceTree = "<group>"; };
+		1D53DEDC1F48341B00534C17 /* PureCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PureCamera.m; sourceTree = "<group>"; };
+		1D53DEDD1F48341B00534C17 /* PureCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PureCamera.bundle; sourceTree = "<group>"; };
+		1D53DEDE1F48341B00534C17 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		1D53DEDF1F48341B00534C17 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		1D53DEE01F48341B00534C17 /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		1D53DEE11F48341B00534C17 /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
+		1D53DEE21F48341B00534C17 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		1D53DEE31F48341B00534C17 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		1D53DEE41F48341B00534C17 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
+		1D53DEE51F48341B00534C17 /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		1D53DEE61F48341B00534C17 /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
+		1D53DEE71F48341B00534C17 /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
+		1D53DEE81F48341B00534C17 /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
+		1D53DEE91F48341B00534C17 /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		1D53DEEA1F48341B00534C17 /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
+		1D53DEEB1F48341B00534C17 /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewController.m; sourceTree = "<group>"; };
+		1D53DEEC1F48341B00534C17 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		1D53DEED1F48341B00534C17 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		1D53DEEE1F48341B00534C17 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		1D53DEEF1F48341B00534C17 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		1D53DEF01F48341B00534C17 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		1D53DEF11F48341B00534C17 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		1D53DEF21F48341B00534C17 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		1D53DF041F48343000534C17 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D53DF051F48343000534C17 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D53DF061F48343000534C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D53DF081F48343000534C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D53DF0A1F48343000534C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D53DF0B1F48343000534C17 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D53DF0C1F48343000534C17 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D53DF0D1F48343000534C17 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DD4F5021DDC676600F0D6B0 /* PureCamerademo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureCamerademo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1D93111F48591100AE1102 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DD4F4FF1DDC676600F0D6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D53DED61F48341B00534C17 /* PureCamera */ = {
+			isa = PBXGroup;
+			children = (
+				1D53DED71F48341B00534C17 /* LLSimpleCamera+Helper.h */,
+				1D53DED81F48341B00534C17 /* LLSimpleCamera+Helper.m */,
+				1D53DED91F48341B00534C17 /* LLSimpleCamera.h */,
+				1D53DEDA1F48341B00534C17 /* LLSimpleCamera.m */,
+				1D53DEDB1F48341B00534C17 /* PureCamera.h */,
+				1D53DEDC1F48341B00534C17 /* PureCamera.m */,
+				1D53DEDD1F48341B00534C17 /* PureCamera.bundle */,
+				1D53DEDE1F48341B00534C17 /* TOActivityCroppedImageProvider.h */,
+				1D53DEDF1F48341B00534C17 /* TOActivityCroppedImageProvider.m */,
+				1D53DEE01F48341B00534C17 /* TOCropOverlayView.h */,
+				1D53DEE11F48341B00534C17 /* TOCropOverlayView.m */,
+				1D53DEE21F48341B00534C17 /* TOCroppedImageAttributes.h */,
+				1D53DEE31F48341B00534C17 /* TOCroppedImageAttributes.m */,
+				1D53DEE41F48341B00534C17 /* TOCropScrollView.h */,
+				1D53DEE51F48341B00534C17 /* TOCropScrollView.m */,
+				1D53DEE61F48341B00534C17 /* TOCropToolbar.h */,
+				1D53DEE71F48341B00534C17 /* TOCropToolbar.m */,
+				1D53DEE81F48341B00534C17 /* TOCropView.h */,
+				1D53DEE91F48341B00534C17 /* TOCropView.m */,
+				1D53DEEA1F48341B00534C17 /* TOCropViewController.h */,
+				1D53DEEB1F48341B00534C17 /* TOCropViewController.m */,
+				1D53DEEC1F48341B00534C17 /* TOCropViewControllerLocalizable.strings */,
+				1D53DEED1F48341B00534C17 /* TOCropViewControllerTransitioning.h */,
+				1D53DEEE1F48341B00534C17 /* TOCropViewControllerTransitioning.m */,
+				1D53DEEF1F48341B00534C17 /* UIImage+CropRotate.h */,
+				1D53DEF01F48341B00534C17 /* UIImage+CropRotate.m */,
+				1D53DEF11F48341B00534C17 /* UIImage+FixOrientation.h */,
+				1D53DEF21F48341B00534C17 /* UIImage+FixOrientation.m */,
+			);
+			path = PureCamera;
+			sourceTree = "<group>";
+		};
+		1D53DF021F48343000534C17 /* PureCamerademo */ = {
+			isa = PBXGroup;
+			children = (
+				1D53DF031F48343000534C17 /* PureCamerademo */,
+			);
+			path = PureCamerademo;
+			sourceTree = "<group>";
+		};
+		1D53DF031F48343000534C17 /* PureCamerademo */ = {
+			isa = PBXGroup;
+			children = (
+				6C1D93111F48591100AE1102 /* Info.plist */,
+				1D53DF041F48343000534C17 /* AppDelegate.h */,
+				1D53DF051F48343000534C17 /* AppDelegate.m */,
+				1D53DF061F48343000534C17 /* Assets.xcassets */,
+				1D53DF071F48343000534C17 /* LaunchScreen.storyboard */,
+				1D53DF091F48343000534C17 /* Main.storyboard */,
+				1D53DF0B1F48343000534C17 /* main.m */,
+				1D53DF0C1F48343000534C17 /* ViewController.h */,
+				1D53DF0D1F48343000534C17 /* ViewController.m */,
+			);
+			path = PureCamerademo;
+			sourceTree = "<group>";
+		};
+		1DD4F4F91DDC676600F0D6B0 = {
+			isa = PBXGroup;
+			children = (
+				1D53DF021F48343000534C17 /* PureCamerademo */,
+				1D53DED61F48341B00534C17 /* PureCamera */,
+				1DD4F5031DDC676600F0D6B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DD4F5031DDC676600F0D6B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD4F5021DDC676600F0D6B0 /* PureCamerademo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DD4F5011DDC676600F0D6B0 /* PureCamerademo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD4F52F1DDC676600F0D6B0 /* Build configuration list for PBXNativeTarget "PureCamerademo" */;
+			buildPhases = (
+				1DD4F4FE1DDC676600F0D6B0 /* Sources */,
+				1DD4F4FF1DDC676600F0D6B0 /* Frameworks */,
+				1DD4F5001DDC676600F0D6B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureCamerademo;
+			productName = SKFCamerademo;
+			productReference = 1DD4F5021DDC676600F0D6B0 /* PureCamerademo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DD4F4FA1DDC676600F0D6B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "五月";
+				TargetAttributes = {
+					1DD4F5011DDC676600F0D6B0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 825675KB77;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1DD4F4FD1DDC676600F0D6B0 /* Build configuration list for PBXProject "PureCamerademo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DD4F4F91DDC676600F0D6B0;
+			productRefGroup = 1DD4F5031DDC676600F0D6B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DD4F5011DDC676600F0D6B0 /* PureCamerademo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD4F5001DDC676600F0D6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1D93121F48591100AE1102 /* Info.plist in Resources */,
+				1D53DEF61F48341B00534C17 /* PureCamera.bundle in Resources */,
+				1D53DF0F1F48343000534C17 /* Assets.xcassets in Resources */,
+				1D53DF111F48343000534C17 /* Main.storyboard in Resources */,
+				1D53DF101F48343000534C17 /* LaunchScreen.storyboard in Resources */,
+				1D53DEFE1F48341B00534C17 /* TOCropViewControllerLocalizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD4F4FE1DDC676600F0D6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D53DF131F48343000534C17 /* ViewController.m in Sources */,
+				1D53DEF41F48341B00534C17 /* LLSimpleCamera.m in Sources */,
+				1D53DEFD1F48341B00534C17 /* TOCropViewController.m in Sources */,
+				1D53DEF31F48341B00534C17 /* LLSimpleCamera+Helper.m in Sources */,
+				1D53DEFF1F48341B00534C17 /* TOCropViewControllerTransitioning.m in Sources */,
+				1D53DEF81F48341B00534C17 /* TOCropOverlayView.m in Sources */,
+				1D53DEF91F48341B00534C17 /* TOCroppedImageAttributes.m in Sources */,
+				1D53DF121F48343000534C17 /* main.m in Sources */,
+				1D53DEF71F48341B00534C17 /* TOActivityCroppedImageProvider.m in Sources */,
+				1D53DEFA1F48341B00534C17 /* TOCropScrollView.m in Sources */,
+				1D53DEFC1F48341B00534C17 /* TOCropView.m in Sources */,
+				1D53DF011F48341B00534C17 /* UIImage+FixOrientation.m in Sources */,
+				1D53DEFB1F48341B00534C17 /* TOCropToolbar.m in Sources */,
+				1D53DF001F48341B00534C17 /* UIImage+CropRotate.m in Sources */,
+				1D53DEF51F48341B00534C17 /* PureCamera.m in Sources */,
+				1D53DF0E1F48343000534C17 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D53DF071F48343000534C17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D53DF081F48343000534C17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1D53DF091F48343000534C17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D53DF0A1F48343000534C17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DD4F52D1DDC676600F0D6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DD4F52E1DDC676600F0D6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DD4F5301DDC676600F0D6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 825675KB77;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.PureCamerademo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		1DD4F5311DDC676600F0D6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 825675KB77;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.PureCamerademo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DD4F4FD1DDC676600F0D6B0 /* Build configuration list for PBXProject "PureCamerademo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD4F52D1DDC676600F0D6B0 /* Debug */,
+				1DD4F52E1DDC676600F0D6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD4F52F1DDC676600F0D6B0 /* Build configuration list for PBXNativeTarget "PureCamerademo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD4F5301DDC676600F0D6B0 /* Debug */,
+				1DD4F5311DDC676600F0D6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DD4F4FA1DDC676600F0D6B0 /* Project object */;
+}
