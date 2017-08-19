@@ -1,11 +1,5 @@
 /*!
  @abstract
- 作者Github址：https://github.com/wubianxiaoxian
- 作者微博 敲代码的树懒
- 作者简书地址:http://www.jianshu.com/users/61b9640c876a/latest_articles
- 作者Blog地址 http://www.cnblogs.com/sunkaifeng/
- @author   Created by sunkaifeng on  16/1/17
- Copyright © 2016年 孙凯峰. All rights reserved.
  Created by 孙凯峰 on 2016/10/18.
  */
 #define KScreenSize [UIScreen mainScreen].bounds.size
@@ -51,7 +45,7 @@
     self.flashButton = [UIButton buttonWithType:UIButtonTypeSystem];
     
     self.flashButton.tintColor = [UIColor whiteColor];
-//     UIImage *image = [UIImage imageNamed:@"SKFCamera.bundle/camera-flash.png"];
+    //     UIImage *image = [UIImage imageNamed:@"SKFCamera.bundle/camera-flash.png"];
     [self.flashButton setImage:[UIImage imageNamed:@"SKFCamera.bundle/camera-flash"] forState:UIControlStateNormal];
     self.flashButton.imageEdgeInsets = UIEdgeInsetsMake(10.0f, 10.0f, 10.0f, 10.0f);
     [self.flashButton addTarget:self action:@selector(flashButtonPressed:) forControlEvents:UIControlEventTouchUpInside];

@@ -295,7 +295,11 @@
 				TargetAttributes = {
 					1DD4F5011DDC676600F0D6B0 = {
 						CreatedOnToolsVersion = 8.1;
+<<<<<<< HEAD
+						DevelopmentTeam = G5GYNRM6SE;
+=======
 						DevelopmentTeam = 825675KB77;
+>>>>>>> 3c593e60a6469f5eb39ad3b7f7d6ba9348c9c2fc
 						ProvisioningStyle = Automatic;
 					};
 					1DD4F51A1DDC676600F0D6B0 = {
@@ -527,8 +531,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
+				DEVELOPMENT_TEAM = G5GYNRM6SE;
+=======
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 825675KB77;
+>>>>>>> 3c593e60a6469f5eb39ad3b7f7d6ba9348c9c2fc
 				INFOPLIST_FILE = "$(SRCROOT)/SKFCamerademo/SKFCamerademo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -542,8 +550,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
+				DEVELOPMENT_TEAM = G5GYNRM6SE;
+=======
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 825675KB77;
+>>>>>>> 3c593e60a6469f5eb39ad3b7f7d6ba9348c9c2fc
 				INFOPLIST_FILE = "$(SRCROOT)/SKFCamerademo/SKFCamerademo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
