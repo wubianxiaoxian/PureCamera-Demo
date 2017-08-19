@@ -23,7 +23,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     if (YES) {
+        NSLog(@"不乱的代码");
         NSLog(@"乱的代码");
+
     }
 
     //乱的代码
@@ -32,7 +34,9 @@
 }
 
 - (void)testcode {
+    
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
