@@ -24,6 +24,8 @@
     [super viewDidLoad];
     if (YES) {
         NSLog(@"不乱的代码");
+        NSLog(@"乱的代码");
+
     }
 
     //乱的代码

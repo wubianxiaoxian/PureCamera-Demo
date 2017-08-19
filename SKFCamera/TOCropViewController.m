@@ -66,8 +66,7 @@ typedef NS_ENUM(NSInteger, TOCropViewControllerAspectRatio) {
 @end
 
 @implementation TOCropViewController
-
-- (instancetype)initWithImage:(UIImage *)image
+  - (instancetype)initWithImage:(UIImage *)image
 {
     self = [super init];
     if (self) {
