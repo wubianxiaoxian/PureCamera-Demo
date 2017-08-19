@@ -26,6 +26,7 @@
         NSLog(@"乱的代码");
         NSLog(@"i know");
         NSLog(@"代码");
+        NSLog(@"j_");
 
     }
 

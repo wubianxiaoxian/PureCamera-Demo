@@ -145,8 +145,8 @@
 		1DD4F4F91DDC676600F0D6B0 = {
 			isa = PBXGroup;
 			children = (
-				1D53DF021F48343000534C17 /* PureCamerademo */,
 				1D53DED61F48341B00534C17 /* PureCamera */,
+				1D53DF021F48343000534C17 /* PureCamerademo */,
 				1DD4F5031DDC676600F0D6B0 /* Products */,
 			);
 			sourceTree = "<group>";
