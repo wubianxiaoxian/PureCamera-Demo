@@ -24,7 +24,11 @@
     [super viewDidLoad];
     if (YES) {
         NSLog(@"乱的代码");
+<<<<<<< HEAD
         NSLog(@"i know");
+=======
+        NSLog(@"代码");
+>>>>>>> 3c593e60a6469f5eb39ad3b7f7d6ba9348c9c2fc
 
     }
 
