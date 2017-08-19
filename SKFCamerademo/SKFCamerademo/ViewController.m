@@ -25,6 +25,7 @@
     if (YES) {
         NSLog(@"乱的代码");
         NSLog(@"代码");
+        NSLog(@"j_");
 
     }
 
