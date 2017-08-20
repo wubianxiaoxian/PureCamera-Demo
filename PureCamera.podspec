@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   s.screenshots  = "http://i1.piimg.com/4851/0071da17a0c177d6.gif"
   s.author   = { 'Kaifeng Sun' => 'sunkaifengdiyi@163.com' }
   s.platform     = :ios, "8.0"
-  s.source_files = "PureCamera/**/*.{h,m}"
-  s.resource = "PureCamera/PureCamera.bundle"
+  s.source_files = 'PureCamera/**/*'
+#s.resource = "PureCamera/PureCamera.bundle"
   s.requires_arc = true
   s.framework  = "UIKit"
   s.source    = { :git => "https://github.com/wubianxiaoxian/PureCamera-Demo.git", :tag =>s.version }
