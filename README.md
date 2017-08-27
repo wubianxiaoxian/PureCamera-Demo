@@ -2,10 +2,10 @@ PureCamera
 =
  
 
-[![CI Status](http://img.shields.io/travis/wubianxiaoxian/SKFCamera.svg?style=flat)](https://travis-ci.org/wubianxiaoxian/SKFCamera)
-[![Version](https://img.shields.io/cocoapods/v/SKFCamera.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
-[![License](https://img.shields.io/cocoapods/l/SKFCamera.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
-[![Platform](https://img.shields.io/cocoapods/p/SKFCamera.svg?style=flat)](http://cocoapods.org/pods/SKFCamera)
+[![CI Status](http://img.shields.io/travis/wubianxiaoxian/PureCamera.svg?style=flat)](https://travis-ci.org/wubianxiaoxian/PureCamera)
+[![Version](https://img.shields.io/cocoapods/v/PureCamera.svg?style=flat)](http://cocoapods.org/pods/PureCamera)
+[![License](https://img.shields.io/cocoapods/l/PureCamera.svg?style=flat)](http://cocoapods.org/pods/PureCamera)
+[![Platform](https://img.shields.io/cocoapods/p/PureCamera.svg?style=flat)](http://cocoapods.org/pods/PureCamera)
 
 
 
@@ -30,12 +30,12 @@ Version
 使用方法
 ----
 
-*  Installation with CocoaPods：pod 'SKFCamera'，引入        
+*  Installation with CocoaPods：pod 'PureCamera'，引入        
      
-        #import <SKFCamera.h>  
-* 或者下载demo到本地将SKFCamera添加到工程，引入 
+        #import <PureCamera.h>  
+* 或者下载demo到本地将PureCamera添加到工程，引入 
      
-        #import "SKFCamera.h"
+        #import "PureCamera.h"
 *  在info.plist 里面添加
          Privacy - Microphone Usage Description  使用麦克风
          Privacy - Camera Usage Description      使用相机
@@ -44,7 +44,7 @@ Version
 * 按照下面的方法引用相机
 
       
-        SKFCamera *homec=[[SKFCamera alloc]init];
+        PureCamera *homec=[[PureCamera alloc]init];
         __weak typeof(self)myself=self;
         homec.fininshcapture=^(UIImage *ss){
         if (ss) {
