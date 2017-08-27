@@ -6,6 +6,31 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1D53DEF31F48341B00534C17 /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DED81F48341B00534C17 /* LLSimpleCamera+Helper.m */; };
+		1D53DEF41F48341B00534C17 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEDA1F48341B00534C17 /* LLSimpleCamera.m */; };
+		1D53DEF51F48341B00534C17 /* PureCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEDC1F48341B00534C17 /* PureCamera.m */; };
+		1D53DEF61F48341B00534C17 /* PureCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D53DEDD1F48341B00534C17 /* PureCamera.bundle */; };
+		1D53DEF71F48341B00534C17 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEDF1F48341B00534C17 /* TOActivityCroppedImageProvider.m */; };
+		1D53DEF81F48341B00534C17 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEE11F48341B00534C17 /* TOCropOverlayView.m */; };
+		1D53DEF91F48341B00534C17 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEE31F48341B00534C17 /* TOCroppedImageAttributes.m */; };
+		1D53DEFA1F48341B00534C17 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEE51F48341B00534C17 /* TOCropScrollView.m */; };
+		1D53DEFB1F48341B00534C17 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEE71F48341B00534C17 /* TOCropToolbar.m */; };
+		1D53DEFC1F48341B00534C17 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEE91F48341B00534C17 /* TOCropView.m */; };
+		1D53DEFD1F48341B00534C17 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEEB1F48341B00534C17 /* TOCropViewController.m */; };
+		1D53DEFE1F48341B00534C17 /* TOCropViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D53DEEC1F48341B00534C17 /* TOCropViewControllerLocalizable.strings */; };
+		1D53DEFF1F48341B00534C17 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEEE1F48341B00534C17 /* TOCropViewControllerTransitioning.m */; };
+		1D53DF001F48341B00534C17 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEF01F48341B00534C17 /* UIImage+CropRotate.m */; };
+		1D53DF011F48341B00534C17 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DEF21F48341B00534C17 /* UIImage+FixOrientation.m */; };
+		1D53DF0E1F48343000534C17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DF051F48343000534C17 /* AppDelegate.m */; };
+		1D53DF0F1F48343000534C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D53DF061F48343000534C17 /* Assets.xcassets */; };
+		1D53DF101F48343000534C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D53DF071F48343000534C17 /* LaunchScreen.storyboard */; };
+		1D53DF111F48343000534C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D53DF091F48343000534C17 /* Main.storyboard */; };
+		1D53DF121F48343000534C17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DF0B1F48343000534C17 /* main.m */; };
+		1D53DF131F48343000534C17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DF0D1F48343000534C17 /* ViewController.m */; };
+		6C1D93121F48591100AE1102 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C1D93111F48591100AE1102 /* Info.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1D53DED71F48341B00534C17 /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
 		1D53DED81F48341B00534C17 /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
@@ -43,8 +68,19 @@
 		1D53DF0B1F48343000534C17 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D53DF0C1F48343000534C17 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1D53DF0D1F48343000534C17 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DD4F5021DDC676600F0D6B0 /* PureCamerademo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureCamerademo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1D93111F48591100AE1102 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DD4F4FF1DDC676600F0D6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		1D53DED61F48341B00534C17 /* PureCamera */ = {
@@ -118,11 +154,32 @@
 		1DD4F5031DDC676600F0D6B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				1DD4F5021DDC676600F0D6B0 /* PureCamerademo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DD4F5011DDC676600F0D6B0 /* PureCamerademo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD4F52F1DDC676600F0D6B0 /* Build configuration list for PBXNativeTarget "PureCamerademo" */;
+			buildPhases = (
+				1DD4F4FE1DDC676600F0D6B0 /* Sources */,
+				1DD4F4FF1DDC676600F0D6B0 /* Frameworks */,
+				1DD4F5001DDC676600F0D6B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureCamerademo;
+			productName = SKFCamerademo;
+			productReference = 1DD4F5021DDC676600F0D6B0 /* PureCamerademo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		1DD4F4FA1DDC676600F0D6B0 /* Project object */ = {
@@ -130,6 +187,13 @@
 			attributes = {
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "五月";
+				TargetAttributes = {
+					1DD4F5011DDC676600F0D6B0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6TEDE6ZDE5;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 1DD4F4FD1DDC676600F0D6B0 /* Build configuration list for PBXProject "PureCamerademo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -144,9 +208,52 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				1DD4F5011DDC676600F0D6B0 /* PureCamerademo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD4F5001DDC676600F0D6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1D93121F48591100AE1102 /* Info.plist in Resources */,
+				1D53DEF61F48341B00534C17 /* PureCamera.bundle in Resources */,
+				1D53DF0F1F48343000534C17 /* Assets.xcassets in Resources */,
+				1D53DF111F48343000534C17 /* Main.storyboard in Resources */,
+				1D53DF101F48343000534C17 /* LaunchScreen.storyboard in Resources */,
+				1D53DEFE1F48341B00534C17 /* TOCropViewControllerLocalizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD4F4FE1DDC676600F0D6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D53DF131F48343000534C17 /* ViewController.m in Sources */,
+				1D53DEF41F48341B00534C17 /* LLSimpleCamera.m in Sources */,
+				1D53DEFD1F48341B00534C17 /* TOCropViewController.m in Sources */,
+				1D53DEF31F48341B00534C17 /* LLSimpleCamera+Helper.m in Sources */,
+				1D53DEFF1F48341B00534C17 /* TOCropViewControllerTransitioning.m in Sources */,
+				1D53DEF81F48341B00534C17 /* TOCropOverlayView.m in Sources */,
+				1D53DEF91F48341B00534C17 /* TOCroppedImageAttributes.m in Sources */,
+				1D53DF121F48343000534C17 /* main.m in Sources */,
+				1D53DEF71F48341B00534C17 /* TOActivityCroppedImageProvider.m in Sources */,
+				1D53DEFA1F48341B00534C17 /* TOCropScrollView.m in Sources */,
+				1D53DEFC1F48341B00534C17 /* TOCropView.m in Sources */,
+				1D53DF011F48341B00534C17 /* UIImage+FixOrientation.m in Sources */,
+				1D53DEFB1F48341B00534C17 /* TOCropToolbar.m in Sources */,
+				1D53DF001F48341B00534C17 /* UIImage+CropRotate.m in Sources */,
+				1D53DEF51F48341B00534C17 /* PureCamera.m in Sources */,
+				1D53DF0E1F48343000534C17 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
 		1D53DF071F48343000534C17 /* LaunchScreen.storyboard */ = {
@@ -258,6 +365,38 @@
 			};
 			name = Release;
 		};
+		1DD4F5301DDC676600F0D6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6TEDE6ZDE5;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.PureCamerademo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		1DD4F5311DDC676600F0D6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6TEDE6ZDE5;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.PureCamerademo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -266,6 +405,15 @@
 			buildConfigurations = (
 				1DD4F52D1DDC676600F0D6B0 /* Debug */,
 				1DD4F52E1DDC676600F0D6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD4F52F1DDC676600F0D6B0 /* Build configuration list for PBXNativeTarget "PureCamerademo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD4F5301DDC676600F0D6B0 /* Debug */,
+				1DD4F5311DDC676600F0D6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -87,8 +87,7 @@
     CGRect screenRect = self.view.frame;
     
     // 创建一个相机
-    self.camera = [[LLSimpleCamera alloc] initWithQuality:AVCaptureSessionPresetHigh  position:LLCameraPositionRear
-                                             videoEnabled:YES];
+    self.camera = [[LLSimpleCamera alloc] initWithQuality:AVCaptureSessionPresetHigh  position:LLCameraPositionRear];
     
     // attach to a view controller
     [self.camera attachToViewController:self withFrame:CGRectMake(0, 0, screenRect.size.width, screenRect.size.height)];

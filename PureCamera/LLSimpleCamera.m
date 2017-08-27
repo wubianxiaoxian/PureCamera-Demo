@@ -16,9 +16,7 @@
 @property (strong, nonatomic) AVCaptureStillImageOutput *stillImageOutput;
 @property (strong, nonatomic) AVCaptureSession *session;
 @property (strong, nonatomic) AVCaptureDevice *videoCaptureDevice;
-@property (strong, nonatomic) AVCaptureDevice *audioCaptureDevice;
 @property (strong, nonatomic) AVCaptureDeviceInput *videoDeviceInput;
-@property (strong, nonatomic) AVCaptureDeviceInput *audioDeviceInput;
 @property (strong, nonatomic) AVCaptureVideoPreviewLayer *captureVideoPreviewLayer;
 @property (strong, nonatomic) UITapGestureRecognizer *tapGesture;
 @property (strong, nonatomic) CALayer *focusBoxLayer;
@@ -36,21 +34,13 @@ NSString *const LLSimpleCameraErrorDomain = @"LLSimpleCameraErrorDomain";
 
 #pragma mark - Initialize
 
-- (instancetype)init
-{
-    return [self initWithVideoEnabled:NO];
-}
 
-- (instancetype)initWithVideoEnabled:(BOOL)videoEnabled
-{
-    return [self initWithQuality:AVCaptureSessionPresetHigh position:LLCameraPositionRear videoEnabled:videoEnabled];
-}
 
-- (instancetype)initWithQuality:(NSString *)quality position:(LLCameraPosition)position videoEnabled:(BOOL)videoEnabled
+- (instancetype)initWithQuality:(NSString *)quality position:(LLCameraPosition)position
 {
     self = [super initWithNibName:nil bundle:nil];
     if(self) {
-        [self setupWithQuality:quality position:position videoEnabled:videoEnabled];
+        [self setupWithQuality:quality position:position];
     }
     
     return self;
@@ -60,15 +50,13 @@ NSString *const LLSimpleCameraErrorDomain = @"LLSimpleCameraErrorDomain";
 {
     if (self = [super initWithCoder:aDecoder]) {
         [self setupWithQuality:AVCaptureSessionPresetHigh
-                      position:LLCameraPositionRear
-                  videoEnabled:YES];
+                      position:LLCameraPositionRear];
     }
     return self;
 }
 
 - (void)setupWithQuality:(NSString *)quality
                 position:(LLCameraPosition)position
-            videoEnabled:(BOOL)videoEnabled
 {
     _cameraQuality = quality;
     _position = position;
@@ -77,7 +65,6 @@ NSString *const LLSimpleCameraErrorDomain = @"LLSimpleCameraErrorDomain";
     _useDeviceOrientation = NO;
     _flash = LLCameraFlashOff;
     _mirror = LLCameraMirrorAuto;
-    _videoEnabled = videoEnabled;
     _recording = NO;
     _zoomingEnabled = YES;
     _effectiveScale = 1.0f;
@@ -164,28 +151,10 @@ NSString *const LLSimpleCameraErrorDomain = @"LLSimpleCameraErrorDomain";
 {
     [LLSimpleCamera requestCameraPermission:^(BOOL granted) {
         if(granted) {
-            // request microphone permission if video is enabled
-            if(self.videoEnabled) {
-                [LLSimpleCamera requestMicrophonePermission:^(BOOL granted) {
-                    if(granted) {
-                        [self initialize];
-                    }
-                    else {
-                        NSError *error = [NSError errorWithDomain:LLSimpleCameraErrorDomain
-                                                             code:LLSimpleCameraErrorCodeMicrophonePermission
-                                                         userInfo:nil];
-                        [self passError:error];
-                    }
-                }];
-            }
-            else {
-                [self initialize];
-            }
+            [self initialize];
         }
         else {
-            NSError *error = [NSError errorWithDomain:LLSimpleCameraErrorDomain
-                                                 code:LLSimpleCameraErrorCodeCameraPermission
-                                             userInfo:nil];
+            NSError *error = [NSError errorWithDomain:LLSimpleCameraErrorDomain code:LLSimpleCameraErrorCodeCameraPermission userInfo:nil];
             [self passError:error];
         }
     }];
@@ -203,7 +172,6 @@ NSString *const LLSimpleCameraErrorDomain = @"LLSimpleCameraErrorDomain";
         _captureVideoPreviewLayer.bounds = bounds;
         _captureVideoPreviewLayer.position = CGPointMake(CGRectGetMidX(bounds), CGRectGetMidY(bounds));
         [self.preview.layer addSublayer:_captureVideoPreviewLayer];
-        
         AVCaptureDevicePosition devicePosition;
         switch (self.position) {
             case LLCameraPositionRear:
@@ -245,26 +213,7 @@ NSString *const LLSimpleCameraErrorDomain = @"LLSimpleCameraErrorDomain";
             [self.session  addInput:_videoDeviceInput];
             self.captureVideoPreviewLayer.connection.videoOrientation = [self orientationForConnection];
         }
-        
-        // add audio if video is enabled
-        if(self.videoEnabled) {
-            _audioCaptureDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeAudio];
-            _audioDeviceInput = [AVCaptureDeviceInput deviceInputWithDevice:_audioCaptureDevice error:&error];
-            if (!_audioDeviceInput) {
-                [self passError:error];
-            }
-            
-            if([self.session canAddInput:_audioDeviceInput]) {
-                [self.session addInput:_audioDeviceInput];
-            }
-            
-            _movieFileOutput = [[AVCaptureMovieFileOutput alloc] init];
-            [_movieFileOutput setMovieFragmentInterval:kCMTimeInvalid];
-            if([self.session canAddOutput:_movieFileOutput]) {
-                [self.session addOutput:_movieFileOutput];
-            }
-        }
-        
+
         // continiously adjust white balance
         self.whiteBalanceMode = AVCaptureWhiteBalanceModeContinuousAutoWhiteBalance;
         
@@ -362,48 +311,6 @@ NSString *const LLSimpleCameraErrorDomain = @"LLSimpleCameraErrorDomain";
     [self capture:onCapture exactSeenImage:NO];
 }
 
-#pragma mark - Video Capture
-
-- (void)startRecordingWithOutputUrl:(NSURL *)url didRecord:(void (^)(LLSimpleCamera *camera, NSURL *outputFileUrl, NSError *error))completionBlock
-{
-    // check if video is enabled
-    if(!self.videoEnabled) {
-        NSError *error = [NSError errorWithDomain:LLSimpleCameraErrorDomain
-                                             code:LLSimpleCameraErrorCodeVideoNotEnabled
-                                         userInfo:nil];
-        [self passError:error];
-        return;
-    }
-    
-    if(self.flash == LLCameraFlashOn) {
-        [self enableTorch:YES];
-    }
-    
-    // set video orientation
-    for(AVCaptureConnection *connection in [self.movieFileOutput connections]) {
-        for (AVCaptureInputPort *port in [connection inputPorts]) {
-            // get only the video media types
-            if ([[port mediaType] isEqual:AVMediaTypeVideo]) {
-                if ([connection isVideoOrientationSupported]) {
-                    [connection setVideoOrientation:[self orientationForConnection]];
-                }
-            }
-        }
-    }
-    
-    self.didRecordCompletionBlock = completionBlock;
-    
-    [self.movieFileOutput startRecordingToOutputFileURL:url recordingDelegate:self];
-}
-
-- (void)stopRecording
-{
-    if(!self.videoEnabled) {
-        return;
-    }
-    
-    [self.movieFileOutput stopRecording];
-}
 
 - (void)captureOutput:(AVCaptureFileOutput *)captureOutput didStartRecordingToOutputFileAtURL:(NSURL *)fileURL fromConnections:(NSArray *)connections
 {
@@ -695,7 +602,6 @@ NSString *const LLSimpleCameraErrorDomain = @"LLSimpleCameraErrorDomain";
     focusBox.borderColor = [[UIColor yellowColor] CGColor];
     focusBox.opacity = 0.0f;
     [self.view.layer addSublayer:focusBox];
-    
     CABasicAnimation *focusBoxAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
     focusBoxAnimation.duration = 0.75;
     focusBoxAnimation.autoreverses = NO;
@@ -846,20 +752,6 @@ NSString *const LLSimpleCameraErrorDomain = @"LLSimpleCameraErrorDomain";
         }];
     } else {
         completionBlock(YES);
-    }
-}
-
-+ (void)requestMicrophonePermission:(void (^)(BOOL granted))completionBlock
-{
-    if([[AVAudioSession sharedInstance] respondsToSelector:@selector(requestRecordPermission:)]) {
-        [[AVAudioSession sharedInstance] requestRecordPermission:^(BOOL granted) {
-            // return to main thread
-            dispatch_async(dispatch_get_main_queue(), ^{
-                if(completionBlock) {
-                    completionBlock(granted);
-                }
-            });
-        }];
     }
 }
 

@@ -130,13 +130,9 @@ typedef enum : NSUInteger {
  * Returns an instance of LLSimpleCamera with the given quality.
  * Quality parameter could be any variable starting with AVCaptureSessionPreset.
  */
-- (instancetype)initWithQuality:(NSString *)quality position:(LLCameraPosition)position videoEnabled:(BOOL)videoEnabled;
+- (instancetype)initWithQuality:(NSString *)quality position:(LLCameraPosition)position;
 
-/**
- * Returns an instance of LLSimpleCamera with quality "AVCaptureSessionPresetHigh" and position "CameraPositionBack".
- * @param videEnabled: Set to YES to enable video recording.
- */
-- (instancetype)initWithVideoEnabled:(BOOL)videoEnabled;
+
 
 /**
  * Starts running the camera session.
@@ -169,16 +165,6 @@ typedef enum : NSUInteger {
  * @param onCapture a block triggered after the capturing the photo.
  */
 -(void)capture:(void (^)(LLSimpleCamera *camera, UIImage *image, NSDictionary *metadata, NSError *error))onCapture;
-
-/*
- * Start recording a video with a completion block. Video is saved to the given url.
- */
-- (void)startRecordingWithOutputUrl:(NSURL *)url didRecord:(void (^)(LLSimpleCamera *camera, NSURL *outputFileUrl, NSError *error))completionBlock;
-
-/**
- * Stop recording video.
- */
-- (void)stopRecording;
 
 /**
  * Attaches the LLSimpleCamera to another view controller with a frame. It basically adds the LLSimpleCamera as a
