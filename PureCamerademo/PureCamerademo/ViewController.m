@@ -27,6 +27,8 @@
         NSLog(@"i know");
         NSLog(@"代码");
         NSLog(@"j_");
+        NSLog(@"k_");
+
 
     }
 

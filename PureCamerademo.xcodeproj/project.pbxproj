@@ -190,7 +190,7 @@
 				TargetAttributes = {
 					1DD4F5011DDC676600F0D6B0 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 6TEDE6ZDE5;
+						DevelopmentTeam = 78WRMEG7Y5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -370,7 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6TEDE6ZDE5;
+				DEVELOPMENT_TEAM = 78WRMEG7Y5;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -386,7 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6TEDE6ZDE5;
+				DEVELOPMENT_TEAM = 78WRMEG7Y5;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
