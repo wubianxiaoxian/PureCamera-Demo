@@ -29,6 +29,7 @@
 		1D53DF121F48343000534C17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DF0B1F48343000534C17 /* main.m */; };
 		1D53DF131F48343000534C17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DF0D1F48343000534C17 /* ViewController.m */; };
 		6C1D93121F48591100AE1102 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C1D93111F48591100AE1102 /* Info.plist */; };
+		979998D8206156CA007F619F /* PureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 979998D7206156CA007F619F /* PureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,8 @@
 		1D53DF0D1F48343000534C17 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1DD4F5021DDC676600F0D6B0 /* PureCamerademo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureCamerademo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1D93111F48591100AE1102 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
+		979998D6206156CA007F619F /* PureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PureViewController.h; sourceTree = "<group>"; };
+		979998D7206156CA007F619F /* PureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				1D53DEE91F48341B00534C17 /* TOCropView.m */,
 				1D53DEEA1F48341B00534C17 /* TOCropViewController.h */,
 				1D53DEEB1F48341B00534C17 /* TOCropViewController.m */,
+				979998D6206156CA007F619F /* PureViewController.h */,
+				979998D7206156CA007F619F /* PureViewController.m */,
 				1D53DEEC1F48341B00534C17 /* TOCropViewControllerLocalizable.strings */,
 				1D53DEED1F48341B00534C17 /* TOCropViewControllerTransitioning.h */,
 				1D53DEEE1F48341B00534C17 /* TOCropViewControllerTransitioning.m */,
@@ -244,6 +249,7 @@
 				1D53DF121F48343000534C17 /* main.m in Sources */,
 				1D53DEF71F48341B00534C17 /* TOActivityCroppedImageProvider.m in Sources */,
 				1D53DEFA1F48341B00534C17 /* TOCropScrollView.m in Sources */,
+				979998D8206156CA007F619F /* PureViewController.m in Sources */,
 				1D53DEFC1F48341B00534C17 /* TOCropView.m in Sources */,
 				1D53DF011F48341B00534C17 /* UIImage+FixOrientation.m in Sources */,
 				1D53DEFB1F48341B00534C17 /* TOCropToolbar.m in Sources */,
