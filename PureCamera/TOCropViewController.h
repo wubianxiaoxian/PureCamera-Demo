@@ -55,9 +55,10 @@
 - (void)cropViewController:(TOCropViewController *)cropViewController didFinishCancelled:(BOOL)cancelled;
 
 @end
-
+@class TOCropView;
 @interface TOCropViewController : UIViewController
 
+@property (nonatomic, strong) TOCropView *cropView;
 /**
  The original, uncropped image that was passed to this controller.
  */
