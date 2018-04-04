@@ -21,8 +21,8 @@
 //  IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-
 @class TOCropViewController;
+
 
 ///------------------------------------------------
 /// @name Delegate
@@ -55,10 +55,37 @@
 - (void)cropViewController:(TOCropViewController *)cropViewController didFinishCancelled:(BOOL)cancelled;
 
 @end
-@class TOCropView;
+
+
+typedef enum : NSInteger {
+    TOCropViewControllerAspectRatioOriginal = 0,
+    TOCropViewControllerAspectRatioSquare,
+    TOCropViewControllerAspectRatio1x2,
+    TOCropViewControllerAspectRatio3x2,
+    TOCropViewControllerAspectRatio5x3,
+    TOCropViewControllerAspectRatio4x3,
+    TOCropViewControllerAspectRatio5x4,
+    TOCropViewControllerAspectRatio7x5,
+    TOCropViewControllerAspectRatio16x9,
+} TOCropViewControllerAspectRatio;
+
+
+
 @interface TOCropViewController : UIViewController
 
-@property (nonatomic, strong) TOCropView *cropView;
+//typedef enum(NSInteger, TOCropViewControllerAspectRatio) {
+//    TOCropViewControllerAspectRatioOriginal,
+//    TOCropViewControllerAspectRatioSquare,
+//    TOCropViewControllerAspectRatio1x2,
+//    TOCropViewControllerAspectRatio3x2,
+//    TOCropViewControllerAspectRatio5x3,
+//    TOCropViewControllerAspectRatio4x3,
+//    TOCropViewControllerAspectRatio5x4,
+//    TOCropViewControllerAspectRatio7x5,
+//    TOCropViewControllerAspectRatio16x9
+//};
+
+
 /**
  The original, uncropped image that was passed to this controller.
  */
@@ -105,7 +132,7 @@
  
  @param image The image that will be used to crop.
  */
-- (instancetype)initWithImage:(UIImage *)image;
+- (instancetype)initWithImage:(UIImage *)image aspectRatioStyle:(TOCropViewControllerAspectRatio)style;
 
 /**
  Play a custom animation of the target image zooming to its position in the crop controller while the background fades in.

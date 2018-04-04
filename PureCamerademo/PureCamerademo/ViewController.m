@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "PureCamera.h"
 #import "TOCropViewController.h"
+#import "PureCropVC.h"
 @interface ViewController () <TOCropViewControllerDelegate>
 
 - (IBAction)pushCameraclick:(id)sender;
@@ -22,26 +23,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    if (YES) {
-        NSLog(@"乱的代码");
-        NSLog(@"i know");
-        NSLog(@"代码");
-        NSLog(@"j_");
-        NSLog(@"k_");
-        NSLog(@"测试提交20180323");
-
-
-
-
-    }
-
-    //乱的代码
-    [self performSelector:@selector(testcode) withObject:self afterDelay:3];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)testcode {
-}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -66,9 +50,11 @@
     }
 }
 - (IBAction)pushCropClick:(id)sender {
-    TOCropViewController *cropController = [[TOCropViewController alloc] initWithImage:self.cropImageview.image];
-    cropController.delegate = self;
-    [self presentViewController:cropController animated:YES completion:nil];
+    // self.cropImageview.image
+
+    PureCropVC *vc = [[PureCropVC alloc] initWithImage:self.cropImageview.image aspectRatioStyle:TOCropViewControllerAspectRatioSquare];
+    vc.delegate = self;
+    [self presentViewController:vc animated:YES completion:nil];
 }
 - (void)cropViewController:(TOCropViewController *)cropViewController
             didCropToImage:(UIImage *)image
