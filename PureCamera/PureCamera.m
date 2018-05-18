@@ -17,7 +17,6 @@
 #import "PureCamera.h"
 #import "TOCropViewController.h"
 #import "LLSimpleCamera.h"
-#import "PureCropVC.h"
 
 @interface PureCamera ()<TOCropViewControllerDelegate>
 @property (strong, nonatomic) LLSimpleCamera *camera;
@@ -184,10 +183,13 @@
     [self.camera capture:^(LLSimpleCamera *camera, UIImage *image, NSDictionary *metadata, NSError *error) {
         NSLog(@"拍照结束");
         if(!error) {
-                PureCropVC *vc = [[PureCropVC alloc] initWithImage:image aspectRatioStyle:TOCropViewControllerAspectRatioSquare];
-      
-            vc.delegate = self;
-            [weakSelf presentViewController:vc animated:YES completion:nil];
+            TOCropViewControllerAspectRatio aspectRatioStle = TOCropViewControllerAspectRatioOriginal;
+            if (self.aspectRatioStle) {
+                aspectRatioStle = self.aspectRatioStle;
+            }
+            TOCropViewController *cropController = [[TOCropViewController alloc] initWithImage:image aspectRatioStle:aspectRatioStle];
+            cropController.delegate = self;
+            [weakSelf presentViewController:cropController animated:YES completion:nil];
         }
         else {
             NSLog(@"An error has occured: %@", error);

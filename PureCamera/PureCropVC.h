@@ -9,6 +9,6 @@
 #import "TOCropViewController.h"
 
 @interface PureCropVC : TOCropViewController
-@property(nonatomic,assign) TOCropViewControllerAspectRatio  AspectRatio;
+//@property(nonatomic,assign) TOCropViewControllerAspectRatio  AspectRatio;
 
 @end

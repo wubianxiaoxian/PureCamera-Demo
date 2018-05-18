@@ -132,7 +132,7 @@ typedef enum : NSInteger {
  
  @param image The image that will be used to crop.
  */
-- (instancetype)initWithImage:(UIImage *)image aspectRatioStyle:(TOCropViewControllerAspectRatio)style;
+- (instancetype)initWithImage:(UIImage *)image aspectRatioStle:(TOCropViewControllerAspectRatio)style;
 
 /**
  Play a custom animation of the target image zooming to its position in the crop controller while the background fades in.

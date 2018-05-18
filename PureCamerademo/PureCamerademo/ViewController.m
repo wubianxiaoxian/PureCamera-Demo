@@ -52,8 +52,9 @@
 - (IBAction)pushCropClick:(id)sender {
     // self.cropImageview.image
 
-    PureCropVC *vc = [[PureCropVC alloc] initWithImage:self.cropImageview.image aspectRatioStyle:TOCropViewControllerAspectRatioSquare];
+    PureCropVC *vc = [[PureCropVC alloc]initWithImage:self.cropImageview.image aspectRatioStle:TOCropViewControllerAspectRatioSquare];
     vc.delegate = self;
+
     [self presentViewController:vc animated:YES completion:nil];
 }
 - (void)cropViewController:(TOCropViewController *)cropViewController

@@ -39,7 +39,7 @@
 @property (nonatomic, strong) UIView *snapshotView;
 @property (nonatomic, strong) TOCropViewControllerTransitioning *transitionController;
 @property (nonatomic, assign) BOOL inTransition;
-@property (nonatomic, assign) TOCropViewControllerAspectRatio aspectRatioStyle;
+@property (nonatomic, assign) TOCropViewControllerAspectRatio aspectRatioStle;
 
 
 #pragma clang diagnostic push
@@ -61,7 +61,7 @@
 
 @implementation TOCropViewController
 
-- (instancetype)initWithImage:(UIImage *)image aspectRatioStle:(TOCropViewControllerAspectRatio)aspectRatioStyle
+- (instancetype)initWithImage:(UIImage *)image aspectRatioStle:(TOCropViewControllerAspectRatio)aspectRatioStle
 {
     self = [super init];
     if (self) {
@@ -71,7 +71,7 @@
         
         _transitionController = [[TOCropViewControllerTransitioning alloc] init];
         _image = image;
-        self.aspectRatioStyle = aspectRatioStyle;
+        self.aspectRatioStle = aspectRatioStle;
 
     }
     
@@ -90,7 +90,7 @@
     [self.view addSubview:self.cropView];
     CGSize aspectRatio = CGSizeZero;
 //    aspectRatio = CGSizeMake(1.0f, 2.0f);
-    aspectRatio = [self convertAspectRatioStyleToRatio:self.aspectRatioStyle];
+    aspectRatio = [self convertAspectRatioStyleToRatio:self.aspectRatioStle];
 
     [self.cropView setAspectLockEnabledWithAspectRatio:aspectRatio animated:false];
     
