@@ -29,7 +29,6 @@
 		6C163CD220AF159700CB5DB0 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C163CC120AF159700CB5DB0 /* LLSimpleCamera.m */; };
 		6C163CD320AF159700CB5DB0 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C163CC420AF159700CB5DB0 /* UIImage+FixOrientation.m */; };
 		6C163CD620AF165B00CB5DB0 /* PureCropVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C163CD520AF165B00CB5DB0 /* PureCropVC.m */; };
-		6C1D93121F48591100AE1102 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C1D93111F48591100AE1102 /* Info.plist */; };
 		6C397B262065003600B3B864 /* KModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C397B252065003500B3B864 /* KModel.m */; };
 /* End PBXBuildFile section */
 
@@ -228,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C1D93121F48591100AE1102 /* Info.plist in Resources */,
 				6C163CCA20AF159700CB5DB0 /* PureCamera.bundle in Resources */,
 				1D53DF0F1F48343000534C17 /* Assets.xcassets in Resources */,
 				6C163CCD20AF159700CB5DB0 /* TOCropViewControllerLocalizable.strings in Resources */,
