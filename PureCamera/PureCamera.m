@@ -35,33 +35,34 @@
     [super viewDidLoad];
     //拍照按钮
     [self InitializeCamera];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
     self.snapButton = [UIButton buttonWithType:UIButtonTypeCustom];
     self.snapButton.clipsToBounds = YES;
     self.snapButton.layer.cornerRadius =75 / 2.0f;
-    [self.snapButton setImage:[UIImage imageNamed:@"PureCamera.bundle/cameraButton"] forState:UIControlStateNormal];
+    UIImage *snapImg = [UIImage imageNamed:@"cameraButton" inBundle:bundle compatibleWithTraitCollection:nil];
+    [self.snapButton setImage:snapImg forState:UIControlStateNormal];
     [self.snapButton addTarget:self action:@selector(snapButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.snapButton];
     //闪关灯按钮
     self.flashButton = [UIButton buttonWithType:UIButtonTypeSystem];
     
     self.flashButton.tintColor = [UIColor whiteColor];
-    //     UIImage *image = [UIImage imageNamed:@"PureCamera.bundle/camera-flash.png"];
-    [self.flashButton setImage:[UIImage imageNamed:@"PureCamera.bundle/camera-flash"] forState:UIControlStateNormal];
+    UIImage *flashImg = [UIImage imageNamed:@"camera-flash" inBundle:bundle compatibleWithTraitCollection:nil];
+    [self.flashButton setImage:flashImg forState:UIControlStateNormal];
     self.flashButton.imageEdgeInsets = UIEdgeInsetsMake(10.0f, 10.0f, 10.0f, 10.0f);
     [self.flashButton addTarget:self action:@selector(flashButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.flashButton];
     if([LLSimpleCamera isFrontCameraAvailable] && [LLSimpleCamera isRearCameraAvailable]) {
         //摄像头转换按钮
         self.switchButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        
-        //        self.switchButton.tintColor = [UIColor whiteColor];
-        [self.switchButton setImage:[UIImage imageNamed:@"PureCamera.bundle/swapButton"] forState:UIControlStateNormal];
+        UIImage *switchhImg = [UIImage imageNamed:@"swapButton" inBundle:bundle compatibleWithTraitCollection:nil];
+        [self.switchButton setImage:switchhImg forState:UIControlStateNormal];
         [self.switchButton addTarget:self action:@selector(switchButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:self.switchButton];
         //返回按钮
         self.backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        
-        [self.backButton setImage:[UIImage imageNamed:@"PureCamera.bundle/closeButton"] forState:UIControlStateNormal];
+        UIImage *closeImage= [UIImage imageNamed:@"closeButton" inBundle:bundle compatibleWithTraitCollection:nil];
+        [self.backButton setImage:closeImage forState:UIControlStateNormal];
         [self.backButton addTarget:self action:@selector(backButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:self.backButton];
     }
