@@ -35,7 +35,7 @@
     [super viewDidLoad];
     //拍照按钮
     [self InitializeCamera];
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"PureCamera" ofType:@"bundle"]];
     self.snapButton = [UIButton buttonWithType:UIButtonTypeCustom];
     self.snapButton.clipsToBounds = YES;
     self.snapButton.layer.cornerRadius =75 / 2.0f;
