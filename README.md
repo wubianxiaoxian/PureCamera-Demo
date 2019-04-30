@@ -15,14 +15,14 @@ PureCamera
 Requirements
 ----
 
-* Xcode 6 or higher
-* iOS 7.0 or higher
+* Xcode 8 or higher
+* iOS 8.0 or higher
 * ARC
 
 Version
 ----
 
-* 1.6
+* 1.6.3
 
 
 
