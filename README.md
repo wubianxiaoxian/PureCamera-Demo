@@ -1,6 +1,6 @@
 PureCamera
 =
- 
+
 
 [![CI Status](http://img.shields.io/travis/wubianxiaoxian/PureCamera.svg?style=flat)](https://travis-ci.org/wubianxiaoxian/PureCamera)
 [![Version](https://img.shields.io/cocoapods/v/PureCamera.svg?style=flat)](http://cocoapods.org/pods/PureCamera)
@@ -9,7 +9,7 @@ PureCamera
 
 
 
-一个自定义相机，拍照完成可自由裁剪
+A custom camera that allows for free cropping of photos upon completion
 ----
 
 Requirements
@@ -24,52 +24,48 @@ Version
 
 * 1.6.3
 
-
-
-
-使用方法
+Usage
 ----
 
-*  Installation with CocoaPods：pod 'PureCamera'，引入        
-     
+*  Installation with CocoaPods: pod 'PureCamera', import
+
 ```objc
 #import <PureCamera.h>  
 ```
-* 或者下载demo到本地将PureCamera添加到工程，引入 
-     
+
+*  Or download the demo locally and add PureCamera to your project, import
+
 ```objc
 #import "PureCamera.h"
 ```
-        
-*  在info.plist 里面添加
+
+*  Add the following to info.plist
 
 ```objc
-Privacy - Camera Usage Description      使用相机
+Privacy - Camera Usage Description      Use camera
 ```
 
+*  Use the following method to call the camera
 
-* 按照下面的方法引用相机
-
-      
 ```objc
 PureCamera *homec=[[PureCamera alloc]init];
 __weak typeof(self)myself=self;
 homec.fininshcapture=^(UIImage *ss){
     if (ss) {
-        NSLog(@"照片存在");
-        //在这里获取裁剪后的照片
+        NSLog(@"Photo exists");
+        //Here you can get the cropped photo
         myself.ViewImageview.image=ss;
     }
 } ;
 [self presentViewController:homec animated:NO completion:^{}];}
 ```
 
-* 按照下面的方法引用图片裁剪页
-   
+*  Use the following method to call the image cropping page
+
 ```objc
-首先引入 #import "TOCropViewController.h"
-遵守@interface ViewController()<TOCropViewControllerDelegate>
-传入一张图片，就可以present图片裁剪页了
+First import #import "TOCropViewController.h"
+Adhere to @interface ViewController()<TOCropViewControllerDelegate>
+Pass in an image and you can present the image cropping page
 
 TOCropViewController *cropController = [[TOCropViewController alloc] initWithImage:self.cropImageview.image];
 cropController.delegate = self;
@@ -79,15 +75,14 @@ cropController.delegate = self;
 {
    self.cropImageview.image=image;
    self.navigationItem.rightBarButtonItem.enabled = YES;
-   //下面定义了一个动画的效果，就是图片裁剪页消失的时候，会以下面你定义的view的frame为消失后的边界。
+   //The following defines an animation effect, which is that when the image cropping page disappears, it will use the frame of the view you defined as the boundary after the disappearance.
    CGRect viewFrame = [self.view convertRect:self.cropImageview.frame toView:self.navigationController.view];
    [cropViewController dismissAnimatedFromParentViewController:self withCroppedImage:image toFrame:viewFrame completion:^{
    }];
 }
 ```
 
-        
+
 ![skfcamera相机录制gifnew.gif](http://upload-images.jianshu.io/upload_images/964698-c4869c9a7c92ae25.gif?imageMogr2/auto-orient/strip)
 
-使用过程中，有任何问题，欢迎大家 提 Issues
-
+If you encounter any problems during use, please feel free to submit an issue.
